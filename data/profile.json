@@ -1,65 +1,79 @@
 {
   "name": "Shobitha Sajjehundi Mahadesh",
-  "short": "Shobi",
-  "headline": "Fund accounting professional turned finance researcher, focused on tokenized fund infrastructure in emerging markets.",
-  "status": "Waltham, MA · MS Finance candidate, graduating June 2027",
-  "summary": "Three years in private equity fund accounting, now studying financial mathematics at Brandeis. I look at how funds are valued, reported and regulated, and how tokenization could change that.",
-  "links": {
-    "email": "shobi@brandeis.edu",
-    "linkedin": "https://www.linkedin.com/in/shobithasm/",
-    "resume": "resume.pdf"
-  },
+  "short": "Shobi Mahadesh",
+  "photo": "profile.jpg",
+  "headline": "Fund accounting and finance research: private equity, NAV, AIFMD reporting and tokenized funds.",
+  "status": "Waltham, MA · MS Finance (STEM) candidate · Graduating June 2027 · Open to finance roles",
+  "summary": "Fund accountant with 4+ years across private equity and mutual fund operations, now studying Financial Mathematics at Brandeis. I pair hands-on NAV, carried interest and regulatory reporting experience with research on tokenized funds and valuation modeling.",
+  "links": { "email": "Shobi@brandeis.edu", "linkedin": "https://www.linkedin.com/in/shobithasm/", "resume": "resume.pdf" },
+  "stats": [
+    { "value": 48, "suffix": "", "label": "funds in quarterly AIFMD reporting (26 Ireland, 22 UK)" },
+    { "value": 4, "suffix": "+", "label": "years in fund and investor operations" },
+    { "value": 5, "suffix": "", "label": "industry leaders benchmarked in the BBH project" },
+    { "value": 3, "suffix": "", "label": "finance and management programs" }
+  ],
   "experience": [
     {
-      "company": "IQEQ India LLP",
-      "title": "Fund Accountant",
-      "place": "Hyderabad, India",
-      "start": "Apr 2023",
-      "end": "Dec 2025",
+      "company": "IQEQ India LLP", "title": "Fund Accountant", "place": "Hyderabad, India", "start": "Apr 2023", "end": "Dec 2025",
+      "summary": "Private equity fund accounting and the primary day-to-day client contact for my funds.",
       "bullets": [
-        "Private equity fund accounting, including NAV and carried interest calculations",
-        "Investor reporting and AIFMD regulatory filings"
-      ]
+        "Managed private equity fund accounting: journal entries, payments, books and records, and NAV, carried interest and incentive fee calculations",
+        "Prepared periodic and annual financial statements, investor notices and regulatory filings, including quarterly AIFMD reports for 26 Ireland-domiciled and 22 UK-domiciled funds",
+        "Produced investor allocations for capital calls, distributions, equalization and rebalances, and answered investor queries with investor relations",
+        "Worked with onshore teams and auditors, providing audit support to secure timely financial approvals"
+      ],
+      "tags": ["Private equity accounting", "NAV calculation", "Carried interest & incentive fees", "Capital calls & distributions", "AIFMD reporting", "Investor reporting", "Audit support"]
     },
     {
-      "company": "ICICI Bank Ltd",
-      "title": "Associate Manager",
-      "place": "Mysore, India",
-      "start": "Apr 2019",
-      "end": "Apr 2021",
+      "company": "ICICI Bank Ltd", "title": "Associate Manager", "place": "Mysore, India", "start": "Apr 2019", "end": "Apr 2021",
+      "summary": "Daily mutual fund accounting and investor relations.",
       "bullets": [
-        "Mutual fund accounting and investor relations"
-      ]
+        "Performed daily mutual fund accounting: NAV calculation, fund pricing, and validation of trading and the general ledger",
+        "Maintained accurate transaction records in line with regulatory and documentation standards",
+        "Acted as the primary contact for investor relations, resolving investor queries and supporting daily fund operations"
+      ],
+      "tags": ["NAV calculation", "Fund pricing", "Investor relations"]
     }
   ],
   "projects": [
     {
-      "title": "Tokenized fund infrastructure in emerging markets",
-      "tag": "Research",
-      "description": "Field project with Brown Brothers Harriman on how tokenized fund infrastructure could work in emerging markets.",
-      "link": ""
-    }
-  ],
-  "education": [
-    {
-      "school": "Brandeis International Business School",
-      "degree": "MS Finance (STEM), Financial Mathematics",
-      "years": "2026 – 2027"
+      "title": "Tokenized funds and digital asset infrastructure", "type": "Consulting", "org": "Brown Brothers Harriman (BBH) · Graduate Consultant", "period": "May – Aug 2026",
+      "bullets": [
+        "Market research with TAM/SAM/SOM analysis on tokenized funds and digital asset infrastructure",
+        "Benchmarked BlackRock, Franklin Templeton, JPMorgan, Goldman Sachs and Circle",
+        "Built executive presentations and strategic recommendations for BBH Innovation"
+      ],
+      "tags": ["Market research", "TAM/SAM/SOM analysis", "Competitor benchmarking"]
     },
     {
-      "school": "SDMIMD, Mysore",
-      "degree": "PGDM, Finance & Marketing",
-      "years": "2017 – 2019"
+      "title": "Equity research: U.S. beverage industry", "type": "Research", "org": "Brandeis coursework", "period": "2026",
+      "bullets": ["Fundamental equity research, financial ratio analysis and peer valuation leading to investment recommendations"],
+      "tags": ["Equity research", "Ratio analysis", "Peer valuation"]
     },
     {
-      "school": "MMK & SDM, University of Mysore",
-      "degree": "Bachelor of Commerce",
-      "years": ""
+      "title": "Corporate financial model: Church & Dwight (NYSE: CHD)", "type": "Modeling", "org": "Brandeis coursework", "period": "2026",
+      "bullets": ["Built a three-statement financial model, performed a DCF valuation and forecast key financial metrics"],
+      "tags": ["Financial modeling", "DCF valuation"]
+    },
+    {
+      "title": "Market research: Mypol Ltd.", "type": "Research", "org": "SDMIMD", "period": "2018",
+      "bullets": ["Researched demand for rubber products in the home appliance industry and presented business insights"],
+      "tags": ["Market research"]
     }
   ],
   "skills": {
-    "Funds & reporting": ["Private equity fund accounting", "NAV calculation", "Carried interest", "Investor reporting", "AIFMD filings"],
-    "Quantitative finance": ["Financial mathematics", "Options & derivatives", "Fixed income"],
-    "Research": ["Tokenized funds", "Capital markets", "Emerging markets"]
-  }
+    "Fund accounting and reporting": ["Private equity accounting", "NAV calculation", "Fund pricing", "Carried interest & incentive fees", "Capital calls & distributions", "AIFMD reporting", "Investor reporting", "Investor relations", "Audit support"],
+    "Research and valuation": ["Financial modeling", "DCF valuation", "Equity research", "Ratio analysis", "Peer valuation", "Market research", "TAM/SAM/SOM analysis", "Competitor benchmarking"],
+    "Tools": ["Bloomberg", "Python", "Investran", "Domos", "Crystal", "Reporting Wizards", "CBI", "MS Office (advanced)"]
+  },
+  "education": [
+    { "school": "Brandeis School of Business and Economics", "degree": "MS in Finance (STEM), Financial Mathematics", "years": "Jan 2026 – Jun 2027", "detail": "Corporate Finance, Private Equity, Financial Modeling, Advanced Quantitative, Options and Derivatives" },
+    { "school": "SDMIMD, Karnataka, India", "degree": "PGDM, Finance & Marketing", "years": "2017 – 2019", "detail": "Macroeconomics, marketing research, financial derivatives, international finance" },
+    { "school": "MMK & SDM, University of Mysore", "degree": "Bachelor of Commerce", "years": "2014 – 2017", "detail": "" }
+  ],
+  "beyond": [
+    { "label": "Certification", "text": "Accounting Fundamentals & Excel Crash Course, Corporate Finance Institute (2019)" },
+    { "label": "Languages", "text": "English (fluent), Kannada (fluent), Telugu, Hindi (native)" },
+    { "label": "Leadership", "text": "Captain, Wizards of Work Chess Committee (2023); captain, corporate cricket event (2024)" }
+  ]
 }
