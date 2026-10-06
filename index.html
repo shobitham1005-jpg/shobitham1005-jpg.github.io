@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shobi Mahadesh | Finance</title>
+<meta name="description" content="Portfolio of Shobitha Sajjehundi Mahadesh: fund accounting, financial mathematics and tokenized fund research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6f6;--ink:#10252b;--mute:#53686d;--line:#cfdadb;--accent:#0b6b63;--gold:#b9770e;--card:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "DM Sans",system-ui,sans-serif}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;background:rgba(243,246,246,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav b{font-family:Fraunces,Georgia,serif;font-size:1.1rem}
+nav a{margin-left:20px;text-decoration:none;color:var(--mute);font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.hero{padding:88px 0 64px}
+.hero p.status{color:var(--gold);font-weight:700;margin:0 0 16px}
+h1{font:700 clamp(2.4rem,6vw,4.2rem)/1.05 Fraunces,Georgia,serif;margin:0 0 20px;letter-spacing:-.02em}
+.headline{font-size:1.3rem;max-width:34em;margin:0 0 16px}
+.sum{color:var(--mute);max-width:36em;margin:0 0 28px}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;border:2px solid var(--accent);text-decoration:none;font-weight:700;margin:0 10px 10px 0}
+.btn.p{background:var(--accent);color:#fff}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font:700 1.7rem Fraunces,Georgia,serif;margin:0 0 28px}
+.row{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:20px 0;border-bottom:1px dashed var(--line)}
+.row:last-child{border-bottom:0}
+.when{color:var(--mute);font-size:.95rem}
+.row h3{margin:0;font-size:1.1rem}
+.row .sub{color:var(--mute);margin:2px 0 8px}
+.row ul{margin:0;padding-left:18px}
+.proj{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--gold);padding:20px 22px;margin-bottom:16px}
+.proj h3{margin:0 0 6px}.proj span{color:var(--gold);font-weight:700;font-size:.9rem}
+.skills{display:grid;grid-template-columns:170px 1fr;gap:12px 24px}
+.skills dt{font-weight:700}.skills dd{margin:0}
+.chip{display:inline-block;background:#dcebe9;border-radius:4px;padding:3px 10px;margin:0 6px 6px 0;font-size:.92rem}
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--mute)}
+@media(max-width:640px){.row,.skills{grid-template-columns:1fr;gap:4px}nav a{margin-left:12px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b id="brand"></b><div><a href="#experience">Experience</a><a href="#projects">Research</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
+<main class="wrap">
+  <header class="hero" id="hero"></header>
+  <section id="experience"><h2>Experience</h2><div id="exp"></div></section>
+  <section id="projects"><h2>Research and projects</h2><div id="proj"></div></section>
+  <section id="skills"><h2>Skills</h2><dl class="skills" id="sk"></dl></section>
+  <section id="education"><h2>Education</h2><div id="edu"></div></section>
+  <section id="contact"><h2>Contact</h2><div id="ct"></div></section>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+fetch("data/profile.json").then(r=>r.json()).then(d=>{
+  const $=id=>document.getElementById(id), L=d.links;
+  document.title=d.short+" | Finance";
+  $("brand").textContent=d.short;
+  $("hero").innerHTML=`<p class="status">${d.status}</p><h1>${d.name}</h1>
+    <p class="headline">${d.headline}</p><p class="sum">${d.summary}</p>
+    <a class="btn p" href="mailto:${L.email}">Email me</a>
+    <a class="btn" href="${L.resume}">Download resume</a>
+    <a class="btn" href="${L.linkedin}">LinkedIn</a>`;
+  $("exp").innerHTML=d.experience.map(e=>`<div class="row"><div class="when">${e.start} – ${e.end}</div>
+    <div><h3>${e.title}, ${e.company}</h3><p class="sub">${e.place}</p><ul>${e.bullets.map(b=>`<li>${b}</li>`).join("")}</ul></div></div>`).join("");
+  $("proj").innerHTML=d.projects.map(p=>`<div class="proj"><span>${p.tag}</span><h3>${p.link?`<a href="${p.link}">${p.title}</a>`:p.title}</h3><p>${p.description}</p></div>`).join("");
+  $("sk").innerHTML=Object.entries(d.skills).map(([k,v])=>`<dt>${k}</dt><dd>${v.map(s=>`<span class="chip">${s}</span>`).join("")}</dd>`).join("");
+  $("edu").innerHTML=d.education.map(e=>`<div class="row"><div class="when">${e.years}</div><div><h3>${e.degree}</h3><p class="sub">${e.school}</p></div></div>`).join("");
+  $("ct").innerHTML=`<p>Open to finance roles. Best way to reach me is <a href="mailto:${L.email}">${L.email}</a> or <a href="${L.linkedin}">LinkedIn</a>.</p>`;
+  $("foot").textContent="© "+new Date().getFullYear()+" "+d.name;
+}).catch(()=>{document.getElementById("hero").textContent="Could not load data/profile.json. Run the site from a web server or GitHub Pages."});
+</script>
+</body>
+</html>
