@@ -1,0 +1,65 @@
+{
+  "name": "Shobitha Sajjehundi Mahadesh",
+  "short": "Shobi",
+  "headline": "Fund accounting professional turned finance researcher, focused on tokenized fund infrastructure in emerging markets.",
+  "status": "Waltham, MA · MS Finance candidate, graduating June 2027",
+  "summary": "Three years in private equity fund accounting, now studying financial mathematics at Brandeis. I look at how funds are valued, reported and regulated, and how tokenization could change that.",
+  "links": {
+    "email": "shobi@brandeis.edu",
+    "linkedin": "https://www.linkedin.com/in/shobithasm/",
+    "resume": "resume.pdf"
+  },
+  "experience": [
+    {
+      "company": "IQEQ India LLP",
+      "title": "Fund Accountant",
+      "place": "Hyderabad, India",
+      "start": "Apr 2023",
+      "end": "Dec 2025",
+      "bullets": [
+        "Private equity fund accounting, including NAV and carried interest calculations",
+        "Investor reporting and AIFMD regulatory filings"
+      ]
+    },
+    {
+      "company": "ICICI Bank Ltd",
+      "title": "Associate Manager",
+      "place": "Mysore, India",
+      "start": "Apr 2019",
+      "end": "Apr 2021",
+      "bullets": [
+        "Mutual fund accounting and investor relations"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Tokenized fund infrastructure in emerging markets",
+      "tag": "Research",
+      "description": "Field project with Brown Brothers Harriman on how tokenized fund infrastructure could work in emerging markets.",
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "school": "Brandeis International Business School",
+      "degree": "MS Finance (STEM), Financial Mathematics",
+      "years": "2026 – 2027"
+    },
+    {
+      "school": "SDMIMD, Mysore",
+      "degree": "PGDM, Finance & Marketing",
+      "years": "2017 – 2019"
+    },
+    {
+      "school": "MMK & SDM, University of Mysore",
+      "degree": "Bachelor of Commerce",
+      "years": ""
+    }
+  ],
+  "skills": {
+    "Funds & reporting": ["Private equity fund accounting", "NAV calculation", "Carried interest", "Investor reporting", "AIFMD filings"],
+    "Quantitative finance": ["Financial mathematics", "Options & derivatives", "Fixed income"],
+    "Research": ["Tokenized funds", "Capital markets", "Emerging markets"]
+  }
+}
