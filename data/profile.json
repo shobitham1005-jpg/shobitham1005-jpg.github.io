@@ -173,6 +173,14 @@
         {
           "label": "Read the report (PDF)",
           "url": "Beverage_Equity_Project_Report.pdf"
+        },
+        {
+          "label": "Download the WACC workbook",
+          "url": "Beverage_WACC_Calculation.xlsx"
+        },
+        {
+          "label": "Download the analysis workbook",
+          "url": "Beverage_Equity_Analysis.xlsx"
         }
       ],
       "tags": [
@@ -189,7 +197,68 @@
         "The conclusion was a 40% PepsiCo, 40% Coca-Cola and 20% Monster allocation for a moderately risk-averse investor. Keurig Dr Pepper (higher beta and leverage, thinner interest coverage) and Celsius (beta of 1.81 and a 13.75% WACC) were excluded."
       ],
       "category": "Academic projects",
-      "blurb": "A five-company study of Coca-Cola, PepsiCo, Monster, Celsius and Keurig Dr Pepper using ratio analysis, WACC and payout policy, ending in a 40/40/20 portfolio recommendation. Group project."
+      "blurb": "A five-company study of Coca-Cola, PepsiCo, Monster, Celsius and Keurig Dr Pepper using ratio analysis, WACC and payout policy, ending in a 40/40/20 portfolio recommendation. Group project.",
+      "table": {
+        "head": [
+          "Company",
+          "Beta",
+          "Cost of equity",
+          "Cost of debt",
+          "Equity weight",
+          "WACC"
+        ],
+        "rows": [
+          [
+            "PepsiCo (PEP)",
+            "0.54",
+            "7.23%",
+            "5.56%",
+            "82.0%",
+            "6.72%"
+          ],
+          [
+            "Coca-Cola (KO)",
+            "0.61",
+            "7.61%",
+            "5.05%",
+            "87.8%",
+            "7.17%"
+          ],
+          [
+            "Keurig Dr Pepper (KDP)",
+            "0.94",
+            "9.42%",
+            "5.61%",
+            "71.4%",
+            "8.00%"
+          ],
+          [
+            "Monster Beverage (MNST)",
+            "0.74",
+            "8.35%",
+            "4.66%",
+            "99.9%",
+            "8.34%"
+          ],
+          [
+            "Celsius Holdings (CELH)",
+            "1.81",
+            "14.20%",
+            "5.64%",
+            "95.4%",
+            "13.75%"
+          ],
+          [
+            "Industry benchmark (NYU Stern)",
+            "",
+            "",
+            "",
+            "",
+            "6.33%"
+          ]
+        ],
+        "note": "Risk-free rate 4.26%, market risk premium 5.50%, tax rate 21%. Group project."
+      }
     },
     {
       "title": "Corporate financial model: Church & Dwight (NYSE: CHD)",
@@ -207,7 +276,12 @@
         "Base case DCF value of $100.10 per share against a $92.65 market price; probability-weighted value of $105.76",
         "Recommendation from the model: HOLD"
       ],
-      "proof": [],
+      "proof": [
+        {
+          "label": "Download the Excel model",
+          "url": "CHD_Corporate_Financial_Model.xlsx"
+        }
+      ],
       "tags": [
         "Financial modeling",
         "DCF valuation",
@@ -218,9 +292,53 @@
         "Built for the Corporate Financial Modeling course. The workbook links an assumptions table to an integrated financial model, three scenarios (base 50%, best 25%, worst 25%), a WACC model built from the company's debt structure and a CAPM cost of equity, a DCF and a multiples valuation.",
         "The base case values the stock at $100.10 per share against a $92.65 market price. Weighting the scenarios gives $105.76, and the model recommends HOLD."
       ],
-      "proofNote": "Model workbook available on request.",
       "category": "Academic projects",
-      "blurb": "A scenario-based financial model and DCF valuation of Church & Dwight: a $100.10 base-case value against a $92.65 share price, with a HOLD recommendation."
+      "blurb": "A scenario-based financial model and DCF valuation of Church & Dwight: a $100.10 base-case value against a $92.65 share price, with a HOLD recommendation.",
+      "table": {
+        "head": [
+          "Model output",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Base case DCF value per share",
+            "$100.10"
+          ],
+          [
+            "Probability-weighted value per share",
+            "$105.76"
+          ],
+          [
+            "Market price used",
+            "$92.65"
+          ],
+          [
+            "WACC",
+            "7.26%"
+          ],
+          [
+            "Cost of equity (CAPM)",
+            "7.74%"
+          ],
+          [
+            "Weighted cost of debt",
+            "4.19%"
+          ],
+          [
+            "Terminal growth rate",
+            "3.0%"
+          ],
+          [
+            "Scenario weights",
+            "50% base, 25% best, 25% worst"
+          ],
+          [
+            "Recommendation from the model",
+            "HOLD"
+          ]
+        ],
+        "note": "Key outputs from the workbook. The full model is in the Excel download."
+      }
     },
     {
       "title": "Python stock portfolio analyzer: Big Tech vs the S&P 500",
@@ -236,12 +354,12 @@
       ],
       "results": [
         "The portfolio returned 23.5% against 16.7% for the S&P 500, growing $10,000 to $12,353",
-        "It took more risk: volatility of 28.8% against 18.8% and a maximum drawdown of −29.3% against −18.9%, so the Sharpe ratios were almost equal (0.81 vs 0.82)",
+        "It took more risk: volatility of 28.8% against 18.8% and a maximum drawdown of -29.3% against -18.9%, so the Sharpe ratios were almost equal (0.81 vs 0.82)",
         "Alphabet contributed the most (+65.9%) and Tesla was the most volatile stock"
       ],
       "proof": [
         {
-          "label": "View the notebook on GitHub",
+          "label": "Open the full notebook on GitHub",
           "url": "https://github.com/shobitham1005-jpg/shobitham1005-jpg.github.io/blob/main/Python_Project_Stock_Portfolio.ipynb"
         }
       ],
@@ -257,7 +375,96 @@
         "The notebook downloads and cleans the price data, builds the portfolio, charts every stock against the index, and calculates return, volatility, Sharpe ratio and maximum drawdown. The portfolio beat the index on return (23.5% vs 16.7%) but with more volatility and deeper drawdowns, so on a risk-adjusted basis it was roughly level with the S&P 500 (Sharpe ratio 0.81 vs 0.82)."
       ],
       "category": "Academic projects",
-      "blurb": "A Python analysis of an equal-weight Big Tech portfolio against the S&P 500 in 2025: a higher return (23.5% vs 16.7%) but more risk, so risk-adjusted performance was about equal."
+      "blurb": "A Python analysis of an equal-weight Big Tech portfolio against the S&P 500 in 2025: a higher return (23.5% vs 16.7%) but more risk, so risk-adjusted performance was about equal.",
+      "table": {
+        "head": [
+          "Asset",
+          "Total return",
+          "Volatility",
+          "Sharpe ratio",
+          "Max drawdown"
+        ],
+        "rows": [
+          [
+            "Equal-weight portfolio",
+            "23.53%",
+            "28.83%",
+            "0.814",
+            "-29.31%"
+          ],
+          [
+            "S&P 500",
+            "16.65%",
+            "18.79%",
+            "0.816",
+            "-18.90%"
+          ],
+          [
+            "Alphabet (GOOGL)",
+            "65.88%",
+            "32.41%",
+            "1.681",
+            "-29.81%"
+          ],
+          [
+            "Tesla (TSLA)",
+            "18.57%",
+            "63.31%",
+            "0.554",
+            "-48.19%"
+          ],
+          [
+            "Microsoft (MSFT)",
+            "16.39%",
+            "24.30%",
+            "0.670",
+            "-20.56%"
+          ],
+          [
+            "Apple (AAPL)",
+            "11.99%",
+            "32.46%",
+            "0.451",
+            "-30.22%"
+          ],
+          [
+            "Amazon (AMZN)",
+            "4.81%",
+            "34.49%",
+            "0.251",
+            "-30.88%"
+          ]
+        ],
+        "note": "2025 data, 2% risk-free rate, $10,000 split equally across five stocks. The portfolio ended at $12,352.93 against $11,664.72 for the S&P 500."
+      },
+      "figures": [
+        {
+          "src": "stock_chart_normalized.png",
+          "caption": "Every stock and the S&P 500 rebased to 100 at the start of 2025."
+        },
+        {
+          "src": "stock_chart_portfolio_vs_sp500.png",
+          "caption": "Portfolio value against the S&P 500. Green shows where the portfolio was ahead and red where it was behind."
+        },
+        {
+          "src": "stock_chart_individual.png",
+          "caption": "Cumulative return of each stock, each compared with its starting value."
+        }
+      ],
+      "code": [
+        {
+          "title": "1. Set up the portfolio",
+          "code": "TICKERS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA']\nINDEX_TICKER = '^GSPC'  # S&P 500\nINITIAL_INVESTMENT = 10000  # $10,000\nRISK_FREE_RATE = 0.02  # 2% annual risk-free rate\nSTART_DATE = '2025-01-01'\nEND_DATE = '2026-01-01'\n\n# Portfolio allocation (equal weight)\nALLOCATION = {ticker: 1/len(TICKERS) for ticker in TICKERS}"
+        },
+        {
+          "title": "2. Buy shares and track daily value",
+          "code": "start_prices = data.iloc[0]\nfor ticker, weight in allocation.items():\n    investment_amount = initial_investment * weight\n    shares[ticker] = investment_amount / start_prices[ticker]\n    portfolio_value[ticker] = data[ticker] * shares[ticker]"
+        },
+        {
+          "title": "3. Measure return and risk",
+          "code": "daily_returns = prices.pct_change().dropna()\ntotal_return = (prices[column].iloc[-1] / prices[column].iloc[0]) - 1\nvolatility = daily_returns[column].std() * np.sqrt(period_days)\nexcess_returns = daily_returns[column].mean() * period_days - rf_rate\nsharpe = excess_returns / volatility if volatility != 0 else 0\ncumulative = (1 + daily_returns[column]).cumprod()\nrunning_max = cumulative.expanding().max()\ndrawdown = (cumulative - running_max) / running_max\nmax_drawdown = drawdown.min()"
+        }
+      ]
     },
     {
       "title": "Arista Networks (ANET) stock pitch",
