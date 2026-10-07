@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shobi Mahadesh | Finance</title>
+<title>Shobitha Sajjehundi Mahadesh | Finance</title>
 <meta name="description" content="Fund accounting and FinTech portfolio: private equity, NAV, AIFMD reporting, tokenized funds and valuation projects.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@ a{color:var(--teal)}button{font:inherit;cursor:pointer}
 .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
 nav{position:sticky;top:0;z-index:10;background:rgba(17,17,17,.95);backdrop-filter:blur(6px)}
 nav .wrap{display:flex;justify-content:space-between;align-items:center;height:58px}
-nav b{font:700 1.1rem Fraunces,Georgia,serif;color:#fff}
+nav b{font:700 1.05rem Fraunces,Georgia,serif;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
 nav a{color:#d6cfc8;text-decoration:none;margin-left:18px;font-size:.93rem}nav a:hover{color:#fff}
 .hero{background:var(--ink);color:#fff;padding:64px 0 48px}
 .top{display:grid;grid-template-columns:230px 1fr;gap:44px;align-items:center}
@@ -54,6 +54,8 @@ article.card{padding:22px 24px;border-left-color:var(--gold)}
 .tp b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.tp p,.tp ul{margin:0}.tp ul{padding-left:18px}.tp li{margin-bottom:4px}
 .learn{margin:0 0 12px}.learn b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.learn ul{margin:0;padding-left:18px}.learn li{margin-bottom:4px}
 .res{background:#f1ede9;border-left:3px solid var(--gold);padding:10px 14px;margin:0 0 12px;border-radius:0 6px 6px 0}.res b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.res ul{margin:0;padding-left:18px}.res li{margin-bottom:4px}
+.cl{margin:8px 0 0;padding-left:18px}.cl li{margin-bottom:8px;font-size:.95rem}
+.grp{font:700 1.35rem Fraunces,Georgia,serif;margin:36px 0 2px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:14px}.cards .card{margin:0}.cards .q{font-size:1rem;margin:8px 0 10px}.cards h3 a{color:var(--ink);text-decoration:none}.cards h3 a:hover{color:var(--teal);text-decoration:underline}.bl{margin:8px 0 12px;color:var(--mute);font-size:.97rem}.rs{margin:0 0 10px;padding-left:18px;font-size:.95rem}.rs li{margin-bottom:3px}
 .proof{margin:4px 0 10px}.proof a{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;padding:7px 14px;border-radius:6px;margin-right:8px}.proof a.ov{background:var(--teal)}.proof a:hover{background:var(--teal)}
 .filters{margin-bottom:18px}.filters button{background:#fff;border:1px solid var(--line);border-radius:20px;padding:6px 16px;margin:0 8px 8px 0}
 .filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -65,6 +67,7 @@ article.card{padding:22px 24px;border-left-color:var(--gold)}
 #bar button{background:var(--gold);border:0;border-radius:20px;padding:3px 12px;margin-left:10px;font-weight:700}
 footer{padding:36px 0 60px;color:var(--mute)}
 @media(max-width:760px){.top,.grid2,.beyond,.three,.tp{grid-template-columns:1fr}.snap{grid-template-columns:1fr 1fr}.photo{width:170px;height:170px;margin:0 auto}nav a{margin-left:10px;font-size:.8rem}}
+@media(max-width:560px){nav a:nth-child(n+3){display:none}nav b{font-size:.9rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
@@ -77,6 +80,7 @@ footer{padding:36px 0 60px;color:var(--mute)}
   <section id="experience"></section>
   <section id="skills"></section>
   <section id="education"></section>
+  <section id="certs"></section>
   <section id="beyond"></section>
   <section id="contact" class="contact"></section>
 </main>
@@ -93,16 +97,15 @@ $("hero").innerHTML=`<p class="status">${d.status}</p><h1>${d.name}</h1><p class
 <a class="btn p" href="mailto:${L.email}">Email me</a><a class="btn" href="${L.resume}">Download résumé</a><a class="btn" href="${L.linkedin}">LinkedIn</a>${L.handshake?`<a class="btn" href="${L.handshake}">Handshake</a>`:""}`;
 $("stats").innerHTML=d.stats.map(s=>`<div class="stat"><b data-v="${s.value}" data-s="${s.suffix}">${s.value}${s.suffix}</b><span>${s.label}</span></div>`).join("");
 $("approach").innerHTML=hd("approach")+`<div class="three">${d.approach.map(a=>`<div><h3>${a.title}</h3><p>${a.text}</p></div>`).join("")}</div>`;
-const types=["All",...new Set(d.projects.map(p=>p.type))];
-$("projects").innerHTML=hd("projects")+`<div class="filters">${types.map((t,i)=>`<button class="${i?"":"on"}" data-f="${t}">${t}</button>`).join("")}</div>`+
-d.projects.map(p=>`<article class="card" data-type="${p.type}" data-tags="${p.tags.join("|")}"><div class="meta">${p.type}${p.period?" · "+p.period:""}</div><h3>${p.title}</h3><div class="meta">${p.org}</div>
-<p class="q">${p.question}</p><div class="tp"><div><b>Theory applied</b><p>${p.theory}</p></div><div><b>In practice</b><ul>${p.bullets.map(b=>`<li>${b}</li>`).join("")}</ul></div></div>
-${p.results?`<div class="res"><b>What it showed</b><ul>${p.results.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}${p.learned?`<div class="learn"><b>What I learned</b><ul>${p.learned.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}${p.note?`<p class="meta">${p.note}</p>`:""}<div class="proof"><a class="ov" href="project.html?p=${p.id}">View project overview →</a>${p.proof.map(x=>`<a href="${x.url}" target="_blank" rel="noopener">${x.label} ↗</a>`).join("")}${p.proofNote?`<span class="meta">${p.proofNote}</span>`:""}</div>${tg(p.tags)}</article>`).join("");
+const grp=[["Field project","Hands-on consulting work for an industry client."],["Academic projects","Coursework, competitions and independent analysis where theory became a model, a portfolio or a recommendation."],["Internship","Industry experience during my PGDM."]];
+const card=p=>`<article class="card" data-tags="${p.tags.join("|")}"><div class="meta">${p.type}${p.period?" · "+p.period:""} · ${p.org}</div><h3><a href="project.html?p=${p.id}">${p.title}</a></h3><p class="bl">${p.blurb}</p><div class="proof"><a class="ov" href="project.html?p=${p.id}">View project overview →</a>${p.proof.map(x=>`<a href="${x.url}" target="_blank" rel="noopener">${x.label} ↗</a>`).join("")}${p.proofNote?`<span class="meta">${p.proofNote}</span>`:""}</div></article>`;
+$("projects").innerHTML=hd("projects")+grp.map(([g,t])=>{const ps=d.projects.filter(p=>p.category===g);return ps.length?`<h3 class="grp">${g}</h3><p class="meta">${t}</p><div class="cards">${ps.map(card).join("")}</div>`:""}).join("");
 $("experience").innerHTML=hd("experience")+d.experience.map((e,i)=>`<details class="card" data-tags="${e.tags.join("|")}" ${i?"":"open"}>
 <summary><div><h3>${e.title}, ${e.company}</h3><div class="meta">${e.place}</div></div><div class="meta">${e.start} – ${e.end}</div></summary>
 <div class="body"><p>${e.summary}</p><ul>${e.bullets.map(b=>`<li>${b}</li>`).join("")}</ul>${tg(e.tags)}</div></details>`).join("");
 $("skills").innerHTML=hd("skills")+Object.entries(d.skills).map(([g,v])=>`<div class="skillgrp"><h3>${g}</h3>${v.map(s=>`<button class="chip" data-skill="${s}">${s}</button>`).join("")}</div>`).join("");
 $("education").innerHTML=hd("education")+`<div class="grid2">`+d.education.map(e=>`<div class="card edu"><div class="meta">${e.years}</div><h3>${e.degree}</h3><p>${e.school}</p>${e.detail?`<p class="meta">${e.detail}</p>`:""}</div>`).join("")+`</div>`;
+$("certs").innerHTML=hd("certifications")+`<div class="three">${d.certifications.map(g=>`<div><h3>${g.issuer}</h3><ul class="cl">${g.items.map(c=>`<li>${c.name}<span class="meta"> · ${c.date}</span>${c.link?` <a href="${c.link}" target="_blank" rel="noopener">View ↗</a>`:""}</li>`).join("")}</ul></div>`).join("")}</div>`;
 $("beyond").innerHTML=hd("beyond")+`<div class="beyond">${d.beyond.map(b=>`<div><b>${b.label}</b>${b.text}</div>`).join("")}</div>`;
 $("contact").innerHTML=hd("contact")+`<p><a class="btn p" href="mailto:${L.email}">Email me</a><a class="btn" href="tel:${tel}">${L.phone}</a><a class="btn" href="${L.linkedin}">LinkedIn</a>${L.handshake?`<a class="btn" href="${L.handshake}">Handshake</a>`:""}<a class="btn" href="${L.resume}">Résumé (PDF)</a></p>
 <p class="meta">${L.email} · ${L.email2}</p>`;
