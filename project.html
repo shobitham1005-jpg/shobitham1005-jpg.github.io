@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Project | Shobi Mahadesh</title>
+<title>Project | Shobitha Sajjehundi Mahadesh</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -12,7 +12,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "DM Sans",system-ui,sans-serif}
 a{color:var(--teal)}:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 nav{background:var(--ink)}nav .w{display:flex;justify-content:space-between;height:58px;align-items:center}
-nav a{color:#d6cfc8;text-decoration:none;font-size:.95rem}nav b{font:700 1.1rem Fraunces,Georgia,serif;color:#fff}
+nav a{color:#d6cfc8;text-decoration:none;font-size:.95rem}nav b{font:700 1.05rem Fraunces,Georgia,serif;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
 .w{max-width:820px;margin:0 auto;padding:0 24px}
 header{background:var(--ink);color:#fff;padding:36px 0 44px}
 .kick{color:var(--gold);font-weight:700;font-size:.95rem;margin:0 0 8px}
@@ -26,6 +26,9 @@ ul{margin:0;padding-left:20px}li{margin-bottom:6px}p{margin:0 0 12px}
 .btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;padding:9px 16px;border-radius:6px;margin:0 8px 8px 0}.btn:hover{background:var(--teal)}
 .chip{display:inline-block;background:#ece6e0;border-radius:5px;padding:3px 10px;margin:0 6px 6px 0;font-size:.9rem}
 .meta{color:var(--mute)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;background:#fff;font-size:.95rem}th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}th{background:var(--ink);color:#fff;font-weight:500}
+figure{margin:0 0 20px}figure img{width:100%;border:1px solid var(--line);border-radius:8px;background:#fff}figcaption{color:var(--mute);font-size:.92rem;margin-top:6px}
+.ch{font-size:1rem;margin:16px 0 6px}pre{background:#1c1a18;color:#efe7df;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:.88rem;line-height:1.5;margin:0}
 .nav2{display:flex;justify-content:space-between;padding:26px 0 50px;gap:12px;flex-wrap:wrap}
 </style>
 </head>
@@ -46,8 +49,11 @@ document.getElementById("m").innerHTML=`<header><div class="w"><p class="kick">$
 <section><h2>Theory applied</h2><p>${p.theory}</p></section>
 <section><h2>What I did</h2><ul>${li(p.bullets)}</ul></section>
 ${L(p.results)?`<section><h2>What it showed</h2><div class="res"><ul>${li(p.results)}</ul></div></section>`:""}
+${p.table?`<section><h2>${p.table.title||"Key numbers"}</h2><div class="tw"><table><thead><tr>${p.table.head.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${p.table.rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>${p.table.note?`<p class="meta">${p.table.note}</p>`:""}</section>`:""}
+${L(p.figures)?`<section><h2>Charts</h2>${p.figures.map(f=>`<figure><a href="${f.src}" target="_blank" rel="noopener"><img src="${f.src}" alt="${f.caption}"></a><figcaption>${f.caption}</figcaption></figure>`).join("")}</section>`:""}
+${L(p.code)?`<section><h2>Code highlights</h2>${p.code.map(c=>`<h3 class="ch">${c.title}</h3><pre><code>${c.code.replace(/&/g,"&amp;").replace(/</g,"&lt;")}</code></pre>`).join("")}</section>`:""}
 ${L(p.learned)?`<section><h2>What I learned</h2><ul>${li(p.learned)}</ul></section>`:""}
-<section><h2>Proof</h2>${p.proof.map(x=>`<a class="btn" href="${x.url}" target="_blank" rel="noopener">${x.label} ↗</a>`).join("")}${p.proofNote?`<p class="meta">${p.proofNote}</p>`:""}</section>
+${p.proof.length||p.proofNote?`<section><h2>Proof</h2>${p.proof.map(x=>`<a class="btn" href="${x.url}" target="_blank" rel="noopener">${x.label} ↗</a>`).join("")}${p.proofNote?`<p class="meta">${p.proofNote}</p>`:""}</section>`:""}
 <section><h2>Skills used</h2>${p.tags.map(t=>`<span class="chip">${t}</span>`).join("")}</section>
 <div class="nav2"><a href="project.html?p=${pv.id}">← ${pv.title}</a><a href="project.html?p=${nx.id}">${nx.title} →</a></div></div>`;
 }).catch(()=>{document.getElementById("m").innerHTML='<div class="w"><p>Could not load data/profile.json.</p></div>'});
