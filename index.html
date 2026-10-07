@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shobi Mahadesh | Finance</title>
-<meta name="description" content="Fund accounting and finance research portfolio: private equity, NAV, AIFMD reporting and tokenized funds.">
+<meta name="description" content="Fund accounting and FinTech portfolio: private equity, NAV, AIFMD reporting, tokenized funds and valuation projects.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#111111;--bg:#f6f6f6;--mute:#5f5a55;--line:#e0dcd7;--teal:#6b4226;--gold:#b07a4f;--card:#fff}
+:root{--ink:#111;--bg:#f6f6f6;--mute:#5f5a55;--line:#e0dcd7;--teal:#6b4226;--gold:#b07a4f;--card:#fff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "DM Sans",system-ui,sans-serif}
 a{color:var(--teal)}button{font:inherit;cursor:pointer}
@@ -18,21 +18,24 @@ nav{position:sticky;top:0;z-index:10;background:rgba(17,17,17,.95);backdrop-filt
 nav .wrap{display:flex;justify-content:space-between;align-items:center;height:58px}
 nav b{font:700 1.1rem Fraunces,Georgia,serif;color:#fff}
 nav a{color:#d6cfc8;text-decoration:none;margin-left:18px;font-size:.93rem}nav a:hover{color:#fff}
-.hero{background:var(--ink);color:#fff;padding:72px 0 64px}
-.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:center}
-.photo{display:block;width:132px;height:132px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin-bottom:18px}
-.status{color:var(--gold);font-weight:700;font-size:.95rem;margin:0 0 14px}
-h1{font:700 clamp(2.3rem,5vw,3.8rem)/1.05 Fraunces,Georgia,serif;margin:0 0 18px;letter-spacing:-.02em}
-.hl{font-size:1.25rem;margin:0 0 14px}.sum{color:#cfc8c1;margin:0 0 26px;max-width:36em}
+.hero{background:var(--ink);color:#fff;padding:64px 0 48px}
+.top{display:grid;grid-template-columns:230px 1fr;gap:44px;align-items:center}
+.photo{display:block;width:230px;height:230px;border-radius:50%;object-fit:cover;object-position:center 20%;border:4px solid var(--gold);box-shadow:0 0 0 10px #1c1a18}
+.status{color:var(--gold);font-weight:700;font-size:.95rem;margin:0 0 12px}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 Fraunces,Georgia,serif;margin:0 0 16px;letter-spacing:-.02em}
+.hl{font-size:1.25rem;margin:0 0 12px}.sum{color:#cfc8c1;margin:0 0 24px;max-width:38em}
 .btn{display:inline-block;padding:11px 20px;border-radius:6px;border:2px solid var(--gold);text-decoration:none;font-weight:700;margin:0 10px 10px 0;color:#fff}
 .btn.p{background:var(--gold);color:var(--ink)}
-.snap{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.stat{border:1px solid #3a3430;border-radius:10px;padding:18px;background:#1c1a18}
-.stat b{display:block;font:700 2.6rem/1 Fraunces,Georgia,serif;color:var(--gold)}
-.stat span{display:block;margin-top:8px;font-size:.88rem;color:#cfc8c1;line-height:1.4}
+.snap{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+.stat{border:1px solid #3a3430;border-radius:10px;padding:16px;background:#1c1a18}
+.stat b{display:block;font:700 2.3rem/1 Fraunces,Georgia,serif;color:var(--gold)}
+.stat span{display:block;margin-top:8px;font-size:.85rem;color:#cfc8c1;line-height:1.4}
 section{padding:56px 0;border-bottom:1px solid var(--line)}
-h2{font:700 1.8rem Fraunces,Georgia,serif;margin:0 0 8px}
-.lead{color:var(--mute);margin:0 0 26px}
+h2{font:700 1.9rem/1.2 Fraunces,Georgia,serif;margin:0 0 8px}
+.lead{color:var(--mute);margin:0 0 26px;max-width:42em}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.three div{background:#fff;border:1px solid var(--line);border-top:4px solid var(--teal);border-radius:8px;padding:18px}
+.three h3{margin:0 0 6px;font-size:1.05rem}.three p{margin:0;color:var(--mute);font-size:.95rem}
 .skillgrp{margin-bottom:18px}.skillgrp h3{font-size:1rem;margin:0 0 8px}
 .chip{display:inline-block;background:#ece6e0;border:1px solid transparent;border-radius:5px;padding:4px 11px;margin:0 6px 7px 0;font-size:.92rem;color:var(--ink)}
 button.chip:hover{border-color:var(--teal)}button.chip.on{background:var(--teal);color:#fff}
@@ -45,49 +48,64 @@ details.card summary::after{content:"+";font:700 1.5rem/1 DM Sans;color:var(--te
 details[open].card summary::after{content:"–"}
 .card h3{margin:0;font-size:1.12rem}.meta{color:var(--mute);font-size:.93rem}
 .body{padding:0 22px 20px}.body ul{margin:8px 0 14px;padding-left:20px}.body li{margin-bottom:6px}
-article.card{padding:20px 22px;border-left-color:var(--gold)}
+article.card{padding:22px 24px;border-left-color:var(--gold)}
+.q{font:600 1.05rem/1.4 Fraunces,Georgia,serif;margin:10px 0 14px}
+.tp{display:grid;grid-template-columns:1fr 2fr;gap:20px;margin-bottom:12px}
+.tp b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.tp p,.tp ul{margin:0}.tp ul{padding-left:18px}.tp li{margin-bottom:4px}
+.learn{margin:0 0 12px}.learn b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.learn ul{margin:0;padding-left:18px}.learn li{margin-bottom:4px}
+.res{background:#f1ede9;border-left:3px solid var(--gold);padding:10px 14px;margin:0 0 12px;border-radius:0 6px 6px 0}.res b{display:block;font-size:.85rem;color:var(--teal);margin-bottom:4px}.res ul{margin:0;padding-left:18px}.res li{margin-bottom:4px}
+.proof{margin:4px 0 10px}.proof a{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;padding:7px 14px;border-radius:6px;margin-right:8px}.proof a.ov{background:var(--teal)}.proof a:hover{background:var(--teal)}
 .filters{margin-bottom:18px}.filters button{background:#fff;border:1px solid var(--line);border-radius:20px;padding:6px 16px;margin:0 8px 8px 0}
 .filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid2 .card{margin:0}
 .edu{padding:18px 22px}.edu p{margin:4px 0 0}
 .beyond{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.beyond div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px}.beyond b{display:block;margin-bottom:4px}
+.contact a.btn{color:var(--ink);border-color:var(--ink)}.contact a.btn.p{background:var(--ink);color:#fff}
 #bar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:30px;display:none;z-index:20;box-shadow:0 6px 20px rgba(0,0,0,.3)}
 #bar button{background:var(--gold);border:0;border-radius:20px;padding:3px 12px;margin-left:10px;font-weight:700}
 footer{padding:36px 0 60px;color:var(--mute)}
-@media(max-width:760px){.hero .wrap,.grid2,.beyond{grid-template-columns:1fr}nav a{margin-left:10px;font-size:.85rem}}
+@media(max-width:760px){.top,.grid2,.beyond,.three,.tp{grid-template-columns:1fr}.snap{grid-template-columns:1fr 1fr}.photo{width:170px;height:170px;margin:0 auto}nav a{margin-left:10px;font-size:.8rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
 <body>
-<nav><div class="wrap"><b id="brand"></b><div><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
-<header class="hero"><div class="wrap"><div id="hero"></div><div class="snap" id="stats"></div></div></header>
+<nav><div class="wrap"><b id="brand"></b><div><a href="#projects">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
+<header class="hero"><div class="wrap top"><div id="ph"></div><div id="hero"></div></div><div class="wrap snap" id="stats"></div></header>
 <main class="wrap">
-  <section id="skills"><h2>Skills explorer</h2><p class="lead">Click any skill to see where I have used it in my experience and projects.</p><div id="sk"></div></section>
-  <section id="experience"><h2>Experience</h2><p class="lead">Select a role to read the details.</p><div id="exp"></div></section>
-  <section id="projects"><h2>Projects and research</h2><div class="filters" id="flt"></div><div id="proj"></div></section>
-  <section id="education"><h2>Education</h2><div id="edu"></div></section>
-  <section id="beyond"><h2>Beyond the résumé</h2><div class="beyond" id="bey"></div></section>
-  <section id="contact"><h2>Contact</h2><div id="ct"></div></section>
+  <section id="approach"></section>
+  <section id="projects"></section>
+  <section id="experience"></section>
+  <section id="skills"></section>
+  <section id="education"></section>
+  <section id="beyond"></section>
+  <section id="contact" class="contact"></section>
 </main>
 <footer><div class="wrap" id="foot"></div></footer>
 <div id="bar" role="status"></div>
 <script>
 fetch("data/profile.json").then(r=>r.json()).then(d=>{
-const $=id=>document.getElementById(id),L=d.links,tg=t=>`<div class="tags">${t.map(x=>`<span class="chip" data-t="${x}">${x}</span>`).join("")}</div>`;
+const $=id=>document.getElementById(id),L=d.links,H=d.headings,tel=L.phone.replace(/[^+\d]/g,""),
+hd=k=>`<h2>${H[k][0]}</h2>${H[k][1]?`<p class="lead">${H[k][1]}</p>`:""}`,
+tg=t=>`<div class="tags">${t.map(x=>`<span class="chip" data-t="${x}">${x}</span>`).join("")}</div>`;
 document.title=d.short+" | Finance";$("brand").textContent=d.short;
-$("hero").innerHTML=`${d.photo?`<img class="photo" src="${d.photo}" alt="Photo of ${d.name}" onerror="this.remove()">`:""}<p class="status">${d.status}</p><h1>${d.name}</h1><p class="hl">${d.headline}</p><p class="sum">${d.summary}</p>
-<a class="btn p" href="mailto:${L.email}">Email me</a><a class="btn" href="${L.resume}">Download résumé</a><a class="btn" href="${L.linkedin}">LinkedIn</a>`;
+$("ph").innerHTML=d.photo?`<img class="photo" src="${d.photo}" alt="Photo of ${d.name}" onerror="this.remove()">`:"";
+$("hero").innerHTML=`<p class="status">${d.status}</p><h1>${d.name}</h1><p class="hl">${d.headline}</p><p class="sum">${d.summary}</p>
+<a class="btn p" href="mailto:${L.email}">Email me</a><a class="btn" href="${L.resume}">Download résumé</a><a class="btn" href="${L.linkedin}">LinkedIn</a>${L.handshake?`<a class="btn" href="${L.handshake}">Handshake</a>`:""}`;
 $("stats").innerHTML=d.stats.map(s=>`<div class="stat"><b data-v="${s.value}" data-s="${s.suffix}">${s.value}${s.suffix}</b><span>${s.label}</span></div>`).join("");
-$("exp").innerHTML=d.experience.map((e,i)=>`<details class="card" data-tags="${e.tags.join("|")}" ${i?"":"open"}>
+$("approach").innerHTML=hd("approach")+`<div class="three">${d.approach.map(a=>`<div><h3>${a.title}</h3><p>${a.text}</p></div>`).join("")}</div>`;
+const types=["All",...new Set(d.projects.map(p=>p.type))];
+$("projects").innerHTML=hd("projects")+`<div class="filters">${types.map((t,i)=>`<button class="${i?"":"on"}" data-f="${t}">${t}</button>`).join("")}</div>`+
+d.projects.map(p=>`<article class="card" data-type="${p.type}" data-tags="${p.tags.join("|")}"><div class="meta">${p.type}${p.period?" · "+p.period:""}</div><h3>${p.title}</h3><div class="meta">${p.org}</div>
+<p class="q">${p.question}</p><div class="tp"><div><b>Theory applied</b><p>${p.theory}</p></div><div><b>In practice</b><ul>${p.bullets.map(b=>`<li>${b}</li>`).join("")}</ul></div></div>
+${p.results?`<div class="res"><b>What it showed</b><ul>${p.results.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}${p.learned?`<div class="learn"><b>What I learned</b><ul>${p.learned.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}${p.note?`<p class="meta">${p.note}</p>`:""}<div class="proof"><a class="ov" href="project.html?p=${p.id}">View project overview →</a>${p.proof.map(x=>`<a href="${x.url}" target="_blank" rel="noopener">${x.label} ↗</a>`).join("")}${p.proofNote?`<span class="meta">${p.proofNote}</span>`:""}</div>${tg(p.tags)}</article>`).join("");
+$("experience").innerHTML=hd("experience")+d.experience.map((e,i)=>`<details class="card" data-tags="${e.tags.join("|")}" ${i?"":"open"}>
 <summary><div><h3>${e.title}, ${e.company}</h3><div class="meta">${e.place}</div></div><div class="meta">${e.start} – ${e.end}</div></summary>
 <div class="body"><p>${e.summary}</p><ul>${e.bullets.map(b=>`<li>${b}</li>`).join("")}</ul>${tg(e.tags)}</div></details>`).join("");
-const types=["All",...new Set(d.projects.map(p=>p.type))];
-$("flt").innerHTML=types.map((t,i)=>`<button class="${i?"":"on"}" data-f="${t}">${t}</button>`).join("");
-$("proj").innerHTML=d.projects.map(p=>`<article class="card" data-type="${p.type}" data-tags="${p.tags.join("|")}"><div class="meta">${p.type} · ${p.period}</div><h3>${p.title}</h3><div class="meta">${p.org}</div><ul>${p.bullets.map(b=>`<li>${b}</li>`).join("")}</ul>${tg(p.tags)}</article>`).join("");
-$("sk").innerHTML=Object.entries(d.skills).map(([g,v])=>`<div class="skillgrp"><h3>${g}</h3>${v.map(s=>`<button class="chip" data-skill="${s}">${s}</button>`).join("")}</div>`).join("");
-$("edu").innerHTML=`<div class="grid2">`+d.education.map(e=>`<div class="card edu"><div class="meta">${e.years}</div><h3>${e.degree}</h3><p>${e.school}</p>${e.detail?`<p class="meta">${e.detail}</p>`:""}</div>`).join("")+`</div>`;
-$("bey").innerHTML=d.beyond.map(b=>`<div><b>${b.label}</b>${b.text}</div>`).join("");
-$("ct").innerHTML=`<p>Open to finance roles. Reach me at <a href="mailto:${L.email}">${L.email}</a> or on <a href="${L.linkedin}">LinkedIn</a>.</p>`;
+$("skills").innerHTML=hd("skills")+Object.entries(d.skills).map(([g,v])=>`<div class="skillgrp"><h3>${g}</h3>${v.map(s=>`<button class="chip" data-skill="${s}">${s}</button>`).join("")}</div>`).join("");
+$("education").innerHTML=hd("education")+`<div class="grid2">`+d.education.map(e=>`<div class="card edu"><div class="meta">${e.years}</div><h3>${e.degree}</h3><p>${e.school}</p>${e.detail?`<p class="meta">${e.detail}</p>`:""}</div>`).join("")+`</div>`;
+$("beyond").innerHTML=hd("beyond")+`<div class="beyond">${d.beyond.map(b=>`<div><b>${b.label}</b>${b.text}</div>`).join("")}</div>`;
+$("contact").innerHTML=hd("contact")+`<p><a class="btn p" href="mailto:${L.email}">Email me</a><a class="btn" href="tel:${tel}">${L.phone}</a><a class="btn" href="${L.linkedin}">LinkedIn</a>${L.handshake?`<a class="btn" href="${L.handshake}">Handshake</a>`:""}<a class="btn" href="${L.resume}">Résumé (PDF)</a></p>
+<p class="meta">${L.email} · ${L.email2}</p>`;
 $("foot").textContent="© "+new Date().getFullYear()+" "+d.name;
 let active=null;const bar=$("bar");
 function mark(){document.querySelectorAll(".card[data-tags]").forEach(c=>{const h=!!active&&c.dataset.tags.split("|").includes(active);c.classList.toggle("hit",h);c.classList.toggle("dim",!!active&&!h);if(h&&c.tagName==="DETAILS")c.open=true});
@@ -95,12 +113,11 @@ document.querySelectorAll(".tags .chip").forEach(c=>c.classList.toggle("hit",c.d
 document.querySelectorAll("[data-skill]").forEach(c=>c.classList.toggle("on",c.dataset.skill===active));
 bar.style.display=active?"block":"none";if(active)bar.innerHTML=`Showing where I used <b>${active}</b><button id="clr">Clear</button>`}
 document.addEventListener("click",e=>{const s=e.target.closest("[data-skill]");
-if(s){active=active===s.dataset.skill?null:s.dataset.skill;mark();if(active)$("experience").scrollIntoView();return}
+if(s){active=active===s.dataset.skill?null:s.dataset.skill;mark();if(active)$("projects").scrollIntoView();return}
 if(e.target.id==="clr"){active=null;mark();return}
 const f=e.target.closest("[data-f]");if(f){document.querySelectorAll("[data-f]").forEach(b=>b.classList.toggle("on",b===f));
-document.querySelectorAll("#proj .card").forEach(c=>c.hidden=f.dataset.f!=="All"&&c.dataset.type!==f.dataset.f)}});
-const rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
-if(!rm){const io=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;io.unobserve(en.target);const el=en.target,v=+el.dataset.v,t0=performance.now();
+document.querySelectorAll("#projects article.card").forEach(c=>c.hidden=f.dataset.f!=="All"&&c.dataset.type!==f.dataset.f)}});
+if(!matchMedia("(prefers-reduced-motion:reduce)").matches){const io=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;io.unobserve(en.target);const el=en.target,v=+el.dataset.v,t0=performance.now();
 (function step(t){const p=Math.min((t-t0)/1200,1);el.textContent=Math.round(v*p)+(p===1?el.dataset.s:"");if(p<1)requestAnimationFrame(step)})(t0)}));
 document.querySelectorAll(".stat b").forEach(b=>{b.textContent="0";io.observe(b)})}
 }).catch(()=>{document.getElementById("hero").textContent="Could not load data/profile.json. Check that the data folder and file name are correct."});
