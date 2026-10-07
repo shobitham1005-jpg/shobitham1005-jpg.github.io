@@ -1,3 +1,5 @@
+
+Profile · JSON
 {
   "name": "Shobitha Sajjehundi Mahadesh",
   "short": "Shobitha Sajjehundi Mahadesh",
@@ -132,26 +134,62 @@
       "type": "Consulting",
       "org": "Brown Brothers Harriman (BBH) · Graduate Consultant",
       "period": "May – Aug 2026",
-      "question": "Where could tokenized funds and digital asset infrastructure create opportunity?",
-      "theory": "Market research, market sizing and competitive benchmarking.",
+      "question": "If funds are issued, recorded and held digitally, what has to exist underneath?",
+      "theory": "Market sizing, STEEP-R analysis and a Desirability, Viability and Feasibility (DVF) assessment.",
       "bullets": [
-        "Market research and market sizing",
-        "Competitive benchmarking of leading firms",
-        "Executive presentations and strategic recommendations"
+        "Researched how tokenized funds work and how the largest asset managers are building with them",
+        "Compared the infrastructure gap in the United States and in emerging markets",
+        "Mapped the fund value chain to find where it breaks, then sketched a solution concept sized against the existing technology market",
+        "Sized the opportunity with several independent methods and scored it against DVF criteria",
+        "Set out testable hypotheses for the next stage of research"
       ],
       "proof": [],
       "tags": [
         "Market research",
         "TAM/SAM/SOM analysis",
-        "Competitor benchmarking"
+        "Competitor benchmarking",
+        "STEEP-R analysis",
+        "Lean canvas and DVF scoring"
       ],
       "id": "bbh",
       "overview": [
-        "A summer 2026 field project as a graduate consultant with the innovation team at Brown Brothers Harriman, exploring tokenized funds and digital asset infrastructure.",
-        "The work covered market research and sizing, competitive benchmarking and executive-level recommendations. My earlier work in fund accounting gave me practical context for how funds are valued, administered and reported."
+        "In summer 2026 I worked as a graduate consultant on a field project with the innovation team at Brown Brothers Harriman, titled \"The Next Generation of Fund Infrastructure.\" The question was how funds get built, recorded and held in a digital market, and what has to exist underneath.",
+        "What is changing. A tokenized fund is the same regulated fund recorded on a blockchain, so it settles in seconds, around the clock, with far lower minimums, and can be held in a digital wallet. Tokenized money-market and Treasury funds passed $15 billion in 2026, up from under $1 billion two years earlier, led by BlackRock's BUIDL and Franklin Templeton's BENJI.",
+        "Where the gap is. The same gap shows up differently in two markets. In the United States, rules keep retail investors out: BUIDL is open only to qualified purchasers with a $5 million minimum, while BENJI opens at $20 inside a registered wrapper. In emerging markets, product is the constraint: savers in India, Indonesia and Brazil are entering funds at record pace and already use digital wallets, yet no tokenized fund built on local assets is sold through local channels.",
+        "What the market is doing. Once a fund is issued on eight or nine blockchains, no single chain holds the full record of who owns what. Franklin Templeton built its own transfer agent to keep that record, Invesco chose to run a fund on Superstate's rails instead, and Securitize and others are selling the layer as a service.",
+        "How we tested it. We mapped the fund value chain (issue, custody, keep the record, distribute, hold and redeem) to find where it breaks, sized the opportunity with several independent methods, reviewed venture activity and market maturity, ran a STEEP-R analysis, scored the idea on Desirability, Viability and Feasibility criteria, and closed with testable hypotheses for the next research stage. My earlier work in fund accounting gave me practical context for how funds are valued, administered and reported."
       ],
       "category": "Field project",
-      "blurb": "Explored tokenized funds and digital asset infrastructure through market research, sizing and competitive benchmarking, and presented recommendations to BBH Innovation."
+      "blurb": "Studied how funds will be issued, recorded and held as they go digital: why tokenized funds have not reached everyday savers in emerging markets, who is building the record layer, and whether the opportunity is worth pursuing.",
+      "results": [
+        "Tokenized money-market and Treasury funds passed $15 billion in 2026, from under $1 billion two years earlier",
+        "The same infrastructure gap appears in two markets: rules hold back the United States, product holds back emerging markets",
+        "The largest managers split on build versus buy for the record layer: Franklin built its own, Invesco rents Superstate's"
+      ],
+      "table": {
+        "title": "Two leading tokenized funds (public data)",
+        "head": [
+          "Fund",
+          "Manager",
+          "Blockchains",
+          "Minimum investment"
+        ],
+        "rows": [
+          [
+            "BUIDL",
+            "BlackRock",
+            "8",
+            "$5,000,000 (qualified purchasers only)"
+          ],
+          [
+            "BENJI",
+            "Franklin Templeton",
+            "9",
+            "$20"
+          ]
+        ],
+        "note": "From public fund documentation and press coverage, 2026."
+      }
     },
     {
       "title": "Beverage industry equity research: Coca-Cola, PepsiCo, Monster, Celsius, Keurig Dr Pepper",
@@ -583,7 +621,9 @@
       "Data visualization",
       "WACC and CAPM",
       "Portfolio construction",
-      "Risk metrics"
+      "Risk metrics",
+      "STEEP-R analysis",
+      "Lean canvas and DVF scoring"
     ],
     "Tools": [
       "Bloomberg",
