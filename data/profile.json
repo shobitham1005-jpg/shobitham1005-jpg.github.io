@@ -11,7 +11,7 @@
     "phone": "+1 617-319-9835",
     "linkedin": "https://www.linkedin.com/in/shobithasm/",
     "resume": "resume.pdf",
-    "handshake": ""
+    "handshake": "https://app.joinhandshake.com/profiles/shobithasm"
   },
   "stats": [
     {
@@ -25,9 +25,9 @@
       "label": "years in fund and investor operations"
     },
     {
-      "value": 5,
+      "value": 3,
       "suffix": "",
-      "label": "industry leaders benchmarked in the BBH project"
+      "label": "finance and management programs"
     },
     {
       "value": 7,
@@ -42,7 +42,7 @@
     ],
     "projects": [
       "Theory put to work",
-      "Each project starts with a real question, applies a finance method, and links to proof wherever it is public."
+      "A field project, academic work and an internship, each starting from a real question. Open any overview for the detail."
     ],
     "experience": [
       "Where I kept the funds accurate",
@@ -57,12 +57,16 @@
       "Finance, management and commerce, with a FinTech focus today."
     ],
     "beyond": [
-      "Beyond the numbers",
+      "Languages and leadership",
       ""
     ],
     "contact": [
       "Let's talk about your next finance hire",
       "I am open to fund accounting, finance research and FinTech roles."
+    ],
+    "certifications": [
+      "Certifications",
+      "Seven credentials from Bloomberg, the Financial Modeling Institute and the Corporate Finance Institute. Each links to its issuer."
     ]
   },
   "approach": [
@@ -128,12 +132,12 @@
       "type": "Consulting",
       "org": "Brown Brothers Harriman (BBH) · Graduate Consultant",
       "period": "May – Aug 2026",
-      "question": "Where could tokenized funds and digital asset infrastructure create opportunity, and how are the leading firms positioned?",
-      "theory": "Market sizing (TAM/SAM/SOM) and competitive benchmarking.",
+      "question": "Where could tokenized funds and digital asset infrastructure create opportunity?",
+      "theory": "Market research, market sizing and competitive benchmarking.",
       "bullets": [
-        "Sized the market for tokenized funds and digital asset infrastructure with TAM/SAM/SOM analysis",
-        "Benchmarked BlackRock, Franklin Templeton, JPMorgan, Goldman Sachs and Circle",
-        "Built executive presentations and strategic recommendations for BBH Innovation"
+        "Market research and market sizing",
+        "Competitive benchmarking of leading firms",
+        "Executive presentations and strategic recommendations"
       ],
       "proof": [],
       "tags": [
@@ -143,75 +147,11 @@
       ],
       "id": "bbh",
       "overview": [
-        "In summer 2026 I worked as a graduate consultant on a field project with the innovation team at Brown Brothers Harriman. The brief was to understand tokenized funds and digital asset infrastructure: how large the opportunity is and how established firms are positioning themselves.",
-        "I sized the market with a TAM/SAM/SOM framework, benchmarked BlackRock, Franklin Templeton, JPMorgan, Goldman Sachs and Circle, and turned the findings into executive presentations and strategic recommendations for BBH Innovation. My earlier work in fund accounting gave me practical context for how funds are valued, administered and reported."
+        "A summer 2026 field project as a graduate consultant with the innovation team at Brown Brothers Harriman, exploring tokenized funds and digital asset infrastructure.",
+        "The work covered market research and sizing, competitive benchmarking and executive-level recommendations. My earlier work in fund accounting gave me practical context for how funds are valued, administered and reported."
       ],
-      "proofNote": "Client work, so the deliverable is not published here."
-    },
-    {
-      "title": "Arista Networks (ANET) stock pitch",
-      "type": "Research",
-      "org": "Equity research pitch · prepared with Perplexity",
-      "period": "Apr 2026",
-      "question": "Is Arista Networks the best way to own AI data-center networking spend?",
-      "theory": "Equity research: investment thesis, scenario DCF, peer comparison and risk framing.",
-      "bullets": [
-        "Recommended Strong Buy with a $175 12-month target (+30.9% from $133.64) and a $115 stop loss",
-        "Built a three-scenario DCF (base case $155) and compared Arista with NVIDIA and Cisco on growth, margins, balance sheet and valuation",
-        "Defined entry and exit triggers, the main risks (42% of revenue from Microsoft and Meta) and a falsifiable catalyst to track"
-      ],
-      "note": "Research exercise using data as of Apr 7, 2026. Not investment advice.",
-      "proof": [
-        {
-          "label": "View the pitch on LinkedIn",
-          "url": "https://lnkd.in/p/gdBAiBDg"
-        }
-      ],
-      "tags": [
-        "Equity research",
-        "DCF valuation",
-        "Peer valuation"
-      ],
-      "id": "arista-pitch",
-      "overview": [
-        "A 12-month investment pitch recommending Arista Networks as a way to own AI data-center networking spend. The thesis rests on Arista's position in AI Ethernet networking, its EOS software and the upgrade cycle from 800G to 1.6T networking.",
-        "I tested it with a three-scenario DCF (bear $70, base $155, bull $215), a comparison with NVIDIA and Cisco, entry and exit triggers, and a risk section naming customer concentration (Microsoft and Meta, 42% of revenue) as the main threat. The pitch also states a falsifiable claim: if no fourth 10%+ customer is announced by Q4 2026 earnings, the target falls to $145.",
-        "Prices and data are as of April 7, 2026, and the memo was prepared with Perplexity. It is a research exercise, not investment advice."
-      ]
-    },
-    {
-      "title": "Impact Activation: Brandeis DeisHack hackathon",
-      "type": "Hackathon",
-      "org": "Brandeis DeisHack · for SVP Boston",
-      "period": "",
-      "question": "SVP Boston had strong community impact data locked in disconnected files, making it hard to attract and retain funders. How do you turn it into a story funders can act on?",
-      "theory": "Data pipeline design and data storytelling: capture, store, then activate the data.",
-      "bullets": [
-        "Team solution: a complete data pipeline that captures, stores and activates impact stories",
-        "A Python GUI for easy data entry by non-technical staff, and a relational database to prevent data loss",
-        "My part: the strategic visualizations in Power BI and Tableau that turn raw data into compelling ROI narratives"
-      ],
-      "learned": [
-        "Hackathons are about solving real problems for real organizations, not just coding",
-        "The best solutions bridge technical capability and user needs",
-        "Structure data today so it is ready for AI-driven insights tomorrow"
-      ],
-      "proof": [
-        {
-          "label": "View the project post on LinkedIn",
-          "url": "https://lnkd.in/p/gzfecFqF"
-        }
-      ],
-      "tags": [
-        "Power BI",
-        "Tableau",
-        "Data visualization"
-      ],
-      "id": "deishack",
-      "overview": [
-        "DeisHack is a hackathon at Brandeis. Our challenge came from SVP Boston, whose community impact data was locked in disconnected files, making it hard to attract and retain funders.",
-        "Our team built Impact Activation, a data pipeline that captures, stores and activates impact stories. It combined a Python GUI so non-technical staff can enter data, a relational database to prevent data loss, and visualizations that turn the data into ROI narratives. My part was the strategic visualizations in Power BI and Tableau."
-      ]
+      "category": "Field project",
+      "blurb": "Explored tokenized funds and digital asset infrastructure through market research, sizing and competitive benchmarking, and presented recommendations to BBH Innovation."
     },
     {
       "title": "Beverage industry equity research: Coca-Cola, PepsiCo, Monster, Celsius, Keurig Dr Pepper",
@@ -247,7 +187,9 @@
         "A comparative study of Coca-Cola, PepsiCo, Monster Beverage, Celsius and Keurig Dr Pepper from 2021 to 2025, completed as a group of five. Part I compared the companies on liquidity, solvency, asset management, profitability and market value ratios.",
         "Part II estimated each company's cost of capital using CAPM, with bond yields or synthetic ratings for the cost of debt, and compared the results with a 6.33% industry WACC. It also reviewed dividend and buyback policy.",
         "The conclusion was a 40% PepsiCo, 40% Coca-Cola and 20% Monster allocation for a moderately risk-averse investor. Keurig Dr Pepper (higher beta and leverage, thinner interest coverage) and Celsius (beta of 1.81 and a 13.75% WACC) were excluded."
-      ]
+      ],
+      "category": "Academic projects",
+      "blurb": "A five-company study of Coca-Cola, PepsiCo, Monster, Celsius and Keurig Dr Pepper using ratio analysis, WACC and payout policy, ending in a 40/40/20 portfolio recommendation. Group project."
     },
     {
       "title": "Corporate financial model: Church & Dwight (NYSE: CHD)",
@@ -276,7 +218,9 @@
         "Built for the Corporate Financial Modeling course. The workbook links an assumptions table to an integrated financial model, three scenarios (base 50%, best 25%, worst 25%), a WACC model built from the company's debt structure and a CAPM cost of equity, a DCF and a multiples valuation.",
         "The base case values the stock at $100.10 per share against a $92.65 market price. Weighting the scenarios gives $105.76, and the model recommends HOLD."
       ],
-      "proofNote": "Model workbook available on request."
+      "proofNote": "Model workbook available on request.",
+      "category": "Academic projects",
+      "blurb": "A scenario-based financial model and DCF valuation of Church & Dwight: a $100.10 base-case value against a $92.65 share price, with a HOLD recommendation."
     },
     {
       "title": "Python stock portfolio analyzer: Big Tech vs the S&P 500",
@@ -311,7 +255,78 @@
       "overview": [
         "Framed as a client request: evaluate an equal-weight $10,000 investment in Apple, Microsoft, Alphabet, Amazon and Tesla, and benchmark it against the S&P 500 for 2025.",
         "The notebook downloads and cleans the price data, builds the portfolio, charts every stock against the index, and calculates return, volatility, Sharpe ratio and maximum drawdown. The portfolio beat the index on return (23.5% vs 16.7%) but with more volatility and deeper drawdowns, so on a risk-adjusted basis it was roughly level with the S&P 500 (Sharpe ratio 0.81 vs 0.82)."
-      ]
+      ],
+      "category": "Academic projects",
+      "blurb": "A Python analysis of an equal-weight Big Tech portfolio against the S&P 500 in 2025: a higher return (23.5% vs 16.7%) but more risk, so risk-adjusted performance was about equal."
+    },
+    {
+      "title": "Arista Networks (ANET) stock pitch",
+      "type": "Research",
+      "org": "Equity research pitch · prepared with Perplexity",
+      "period": "Apr 2026",
+      "question": "Is Arista Networks the best way to own AI data-center networking spend?",
+      "theory": "Equity research: investment thesis, scenario DCF, peer comparison and risk framing.",
+      "bullets": [
+        "Recommended Strong Buy with a $175 12-month target (+30.9% from $133.64) and a $115 stop loss",
+        "Built a three-scenario DCF (base case $155) and compared Arista with NVIDIA and Cisco on growth, margins, balance sheet and valuation",
+        "Defined entry and exit triggers, the main risks (42% of revenue from Microsoft and Meta) and a falsifiable catalyst to track"
+      ],
+      "note": "Research exercise using data as of Apr 7, 2026. Not investment advice.",
+      "proof": [
+        {
+          "label": "View the pitch on LinkedIn",
+          "url": "https://lnkd.in/p/gdBAiBDg"
+        }
+      ],
+      "tags": [
+        "Equity research",
+        "DCF valuation",
+        "Peer valuation"
+      ],
+      "id": "arista-pitch",
+      "overview": [
+        "A 12-month investment pitch recommending Arista Networks as a way to own AI data-center networking spend. The thesis rests on Arista's position in AI Ethernet networking, its EOS software and the upgrade cycle from 800G to 1.6T networking.",
+        "I tested it with a three-scenario DCF (bear $70, base $155, bull $215), a comparison with NVIDIA and Cisco, entry and exit triggers, and a risk section naming customer concentration (Microsoft and Meta, 42% of revenue) as the main threat. The pitch also states a falsifiable claim: if no fourth 10%+ customer is announced by Q4 2026 earnings, the target falls to $145.",
+        "Prices and data are as of April 7, 2026, and the memo was prepared with Perplexity. It is a research exercise, not investment advice."
+      ],
+      "category": "Academic projects",
+      "blurb": "A Strong Buy pitch on Arista Networks with a $175 target, scenario DCF, peer comparison and a falsifiable catalyst. A research exercise as of April 2026, not investment advice."
+    },
+    {
+      "title": "Impact Activation: Brandeis DeisHack hackathon",
+      "type": "Hackathon",
+      "org": "Brandeis DeisHack · for SVP Boston",
+      "period": "",
+      "question": "How do you turn disconnected community impact data into a story funders can act on?",
+      "theory": "Data pipeline design and data storytelling: capture, store, then activate the data.",
+      "bullets": [
+        "Team solution: a complete data pipeline that captures, stores and activates impact stories",
+        "A Python GUI for easy data entry by non-technical staff, and a relational database to prevent data loss",
+        "My part: the strategic visualizations in Power BI and Tableau that turn raw data into compelling ROI narratives"
+      ],
+      "learned": [
+        "Hackathons are about solving real problems for real organizations, not just coding",
+        "The best solutions bridge technical capability and user needs",
+        "Structure data today so it is ready for AI-driven insights tomorrow"
+      ],
+      "proof": [
+        {
+          "label": "View the project post on LinkedIn",
+          "url": "https://lnkd.in/p/gzfecFqF"
+        }
+      ],
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data visualization"
+      ],
+      "id": "deishack",
+      "overview": [
+        "DeisHack is a hackathon at Brandeis. Our challenge came from SVP Boston, whose community impact data was locked in disconnected files, making it hard to attract and retain funders.",
+        "Our team built Impact Activation, a data pipeline that captures, stores and activates impact stories. It combined a Python GUI so non-technical staff can enter data, a relational database to prevent data loss, and visualizations that turn the data into ROI narratives. My part was the strategic visualizations in Power BI and Tableau."
+      ],
+      "category": "Academic projects",
+      "blurb": "Impact Activation, a data pipeline built for SVP Boston at Brandeis's hackathon. I created the Power BI and Tableau visualizations that turn raw data into ROI narratives."
     },
     {
       "title": "Summer internship: applications of rubber in home appliances",
@@ -322,23 +337,19 @@
       "theory": "Market research and demand analysis.",
       "bullets": [
         "Researched demand for rubber products in the home appliance industry",
-        "Presented the business insights to the organization",
-        "Completed the program with a certificate from the company's HR department"
+        "Presented the business insights to the organization"
       ],
-      "proof": [
-        {
-          "label": "View the internship certificate",
-          "url": "Mypol_Internship_Certificate.pdf"
-        }
-      ],
+      "proof": [],
       "tags": [
         "Market research"
       ],
       "id": "mypol-internship",
       "overview": [
         "A two-month summer internship (1 April to 31 May 2018) during my PGDM at SDMIMD, on 'Applications of Rubber in Home Appliances' at Mysore Polymers & Rubber Products Limited.",
-        "I researched demand for rubber products in the home appliance industry and presented the findings. The company's HR department certified completion of the program."
-      ]
+        "I researched demand for rubber products in the home appliance industry and presented the findings."
+      ],
+      "category": "Internship",
+      "blurb": "A summer internship researching demand for rubber products in the home appliance industry at Mysore Polymers & Rubber Products Limited."
     }
   ],
   "skills": {
@@ -402,16 +413,71 @@
   ],
   "beyond": [
     {
-      "label": "Certification",
-      "text": "Accounting Fundamentals & Excel Crash Course, Corporate Finance Institute (2019)"
-    },
-    {
       "label": "Languages",
       "text": "English (fluent), Kannada (fluent), Telugu, Hindi (native)"
     },
     {
       "label": "Leadership",
       "text": "Captain, Wizards of Work Chess Committee (2023); captain, corporate cricket event (2024)"
+    }
+  ],
+  "certifications": [
+    {
+      "issuer": "Bloomberg",
+      "items": [
+        {
+          "name": "Environmental Social Governance (ESG)",
+          "date": "May 2026",
+          "id": "gnbo3peapLn52JKTvvoDjhzU",
+          "link": "https://portal.bloombergforeducation.com/certificates/gnbo3peapLn52JKTvvoDjhzU"
+        },
+        {
+          "name": "Bloomberg Market Concepts",
+          "date": "May 2026",
+          "id": "RXk9ZtTzYXag4i6ZFQuCdN5u",
+          "link": "https://portal.bloombergforeducation.com/certificates/RXk9ZtTzYXag4i6ZFQuCdN5u"
+        },
+        {
+          "name": "Bloomberg Spreadsheet Analysis",
+          "date": "Apr 2026",
+          "id": "uJAtZtYobsLXjctohBoXxfec",
+          "link": "https://portal.bloombergforeducation.com/certificates/uJAtZtYobsLXjctohBoXxfec"
+        },
+        {
+          "name": "Bloomberg Finance Fundamentals",
+          "date": "Apr 2026",
+          "id": "QxFtkvoYg1ocX4ey6CCcthLm",
+          "link": "https://portal.bloombergforeducation.com/certificates/QxFtkvoYg1ocX4ey6CCcthLm"
+        }
+      ]
+    },
+    {
+      "issuer": "Financial Modeling Institute (FMI)",
+      "items": [
+        {
+          "name": "FMI Foundations in Financial Modeling",
+          "date": "Apr 2026",
+          "id": "179657612",
+          "link": "https://credential.fminstitute.com/120266c5-9d45-4719-adf6-60341b1f8b06"
+        }
+      ]
+    },
+    {
+      "issuer": "Corporate Finance Institute (CFI)",
+      "items": [
+        {
+          "name": "Fixed Income Fundamentals",
+          "date": "Oct 2018",
+          "id": "12028729",
+          "link": "https://www.credential.net/12028729"
+        },
+        {
+          "name": "Accounting Fundamentals",
+          "date": "Sep 2018",
+          "id": "11909799",
+          "link": "https://pdf.credential.net/11909799.pdf"
+        }
+      ]
     }
   ]
 }
