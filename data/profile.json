@@ -2,78 +2,416 @@
   "name": "Shobitha Sajjehundi Mahadesh",
   "short": "Shobi Mahadesh",
   "photo": "profile.jpg",
-  "headline": "Fund accounting and finance research: private equity, NAV, AIFMD reporting and tokenized funds.",
-  "status": "Waltham, MA · MS Finance (STEM) candidate · Graduating June 2027 · Open to finance roles",
-  "summary": "Fund accountant with 4+ years across private equity and mutual fund operations, now studying Financial Mathematics at Brandeis. I pair hands-on NAV, carried interest and regulatory reporting experience with research on tokenized funds and valuation modeling.",
-  "links": { "email": "Shobi@brandeis.edu", "linkedin": "https://www.linkedin.com/in/shobithasm/", "resume": "resume.pdf" },
+  "headline": "Fund accounting meets FinTech: private equity, NAV, AIFMD reporting and tokenized funds.",
+  "status": "Waltham, MA · MS Finance (STEM) with a FinTech focus · Graduating June 2027 · Open to finance roles",
+  "summary": "Fund accountant with 4+ years across private equity and mutual fund operations, now studying finance with a FinTech focus at Brandeis. I pair hands-on NAV, carried interest and regulatory reporting experience with research on tokenized funds and valuation modeling.",
+  "links": {
+    "email": "Shobitham1005@gmail.com",
+    "email2": "Shobi@brandeis.edu",
+    "phone": "+1 617-319-9835",
+    "linkedin": "https://www.linkedin.com/in/shobithasm/",
+    "resume": "resume.pdf",
+    "handshake": ""
+  },
   "stats": [
-    { "value": 48, "suffix": "", "label": "funds in quarterly AIFMD reporting (26 Ireland, 22 UK)" },
-    { "value": 4, "suffix": "+", "label": "years in fund and investor operations" },
-    { "value": 5, "suffix": "", "label": "industry leaders benchmarked in the BBH project" },
-    { "value": 3, "suffix": "", "label": "finance and management programs" }
+    {
+      "value": 48,
+      "suffix": "",
+      "label": "funds in quarterly AIFMD reporting (26 Ireland, 22 UK)"
+    },
+    {
+      "value": 4,
+      "suffix": "+",
+      "label": "years in fund and investor operations"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "industry leaders benchmarked in the BBH project"
+    },
+    {
+      "value": 7,
+      "suffix": "",
+      "label": "projects across consulting, research, modeling, Python and a hackathon"
+    }
+  ],
+  "headings": {
+    "approach": [
+      "Numbers, tested and explained",
+      "How I approach finance work, from the fund ledger to the boardroom slide."
+    ],
+    "projects": [
+      "Theory put to work",
+      "Each project starts with a real question, applies a finance method, and links to proof wherever it is public."
+    ],
+    "experience": [
+      "Where I kept the funds accurate",
+      "Four years of fund accounting and investor reporting across two firms. Select a role to read the detail."
+    ],
+    "skills": [
+      "Skills, traced to real work",
+      "Click any skill and I will light up the roles and projects where I used it."
+    ],
+    "education": [
+      "The foundation behind the work",
+      "Finance, management and commerce, with a FinTech focus today."
+    ],
+    "beyond": [
+      "Beyond the numbers",
+      ""
+    ],
+    "contact": [
+      "Let's talk about your next finance hire",
+      "I am open to fund accounting, finance research and FinTech roles."
+    ]
+  },
+  "approach": [
+    {
+      "title": "Get the numbers right",
+      "text": "Four years of NAV, carried interest and regulatory filings taught me that accuracy and timing are what build investor trust."
+    },
+    {
+      "title": "Test the idea",
+      "text": "I back a view with valuation models, peer comparisons and market sizing, then check the assumptions behind it."
+    },
+    {
+      "title": "Make it decision-ready",
+      "text": "From investor notices to executive presentations, I turn detailed work into something a decision-maker can act on."
+    }
   ],
   "experience": [
     {
-      "company": "IQEQ India LLP", "title": "Fund Accountant", "place": "Hyderabad, India", "start": "Apr 2023", "end": "Dec 2025",
-      "summary": "Private equity fund accounting and the primary day-to-day client contact for my funds.",
+      "company": "IQEQ India LLP",
+      "title": "Fund Accountant",
+      "place": "Hyderabad, India",
+      "start": "Apr 2023",
+      "end": "Dec 2025",
+      "summary": "Private equity fund accounting, and the primary day-to-day client contact for my funds.",
       "bullets": [
         "Managed private equity fund accounting: journal entries, payments, books and records, and NAV, carried interest and incentive fee calculations",
         "Prepared periodic and annual financial statements, investor notices and regulatory filings, including quarterly AIFMD reports for 26 Ireland-domiciled and 22 UK-domiciled funds",
         "Produced investor allocations for capital calls, distributions, equalization and rebalances, and answered investor queries with investor relations",
         "Worked with onshore teams and auditors, providing audit support to secure timely financial approvals"
       ],
-      "tags": ["Private equity accounting", "NAV calculation", "Carried interest & incentive fees", "Capital calls & distributions", "AIFMD reporting", "Investor reporting", "Audit support"]
+      "tags": [
+        "Private equity accounting",
+        "NAV calculation",
+        "Carried interest & incentive fees",
+        "Capital calls & distributions",
+        "AIFMD reporting",
+        "Investor reporting",
+        "Audit support"
+      ]
     },
     {
-      "company": "ICICI Bank Ltd", "title": "Associate Manager", "place": "Mysore, India", "start": "Apr 2019", "end": "Apr 2021",
+      "company": "ICICI Bank Ltd",
+      "title": "Associate Manager",
+      "place": "Mysore, India",
+      "start": "Apr 2019",
+      "end": "Apr 2021",
       "summary": "Daily mutual fund accounting and investor relations.",
       "bullets": [
         "Performed daily mutual fund accounting: NAV calculation, fund pricing, and validation of trading and the general ledger",
         "Maintained accurate transaction records in line with regulatory and documentation standards",
         "Acted as the primary contact for investor relations, resolving investor queries and supporting daily fund operations"
       ],
-      "tags": ["NAV calculation", "Fund pricing", "Investor relations"]
+      "tags": [
+        "NAV calculation",
+        "Fund pricing",
+        "Investor relations"
+      ]
     }
   ],
   "projects": [
     {
-      "title": "Tokenized funds and digital asset infrastructure", "type": "Consulting", "org": "Brown Brothers Harriman (BBH) · Graduate Consultant", "period": "May – Aug 2026",
+      "title": "Tokenized funds and digital asset infrastructure",
+      "type": "Consulting",
+      "org": "Brown Brothers Harriman (BBH) · Graduate Consultant",
+      "period": "May – Aug 2026",
+      "question": "Where could tokenized funds and digital asset infrastructure create opportunity, and how are the leading firms positioned?",
+      "theory": "Market sizing (TAM/SAM/SOM) and competitive benchmarking.",
       "bullets": [
-        "Market research with TAM/SAM/SOM analysis on tokenized funds and digital asset infrastructure",
+        "Sized the market for tokenized funds and digital asset infrastructure with TAM/SAM/SOM analysis",
         "Benchmarked BlackRock, Franklin Templeton, JPMorgan, Goldman Sachs and Circle",
         "Built executive presentations and strategic recommendations for BBH Innovation"
       ],
-      "tags": ["Market research", "TAM/SAM/SOM analysis", "Competitor benchmarking"]
+      "proof": [],
+      "tags": [
+        "Market research",
+        "TAM/SAM/SOM analysis",
+        "Competitor benchmarking"
+      ],
+      "id": "bbh",
+      "overview": [
+        "In summer 2026 I worked as a graduate consultant on a field project with the innovation team at Brown Brothers Harriman. The brief was to understand tokenized funds and digital asset infrastructure: how large the opportunity is and how established firms are positioning themselves.",
+        "I sized the market with a TAM/SAM/SOM framework, benchmarked BlackRock, Franklin Templeton, JPMorgan, Goldman Sachs and Circle, and turned the findings into executive presentations and strategic recommendations for BBH Innovation. My earlier work in fund accounting gave me practical context for how funds are valued, administered and reported."
+      ],
+      "proofNote": "Client work, so the deliverable is not published here."
     },
     {
-      "title": "Equity research: U.S. beverage industry", "type": "Research", "org": "Brandeis coursework", "period": "2026",
-      "bullets": ["Fundamental equity research, financial ratio analysis and peer valuation leading to investment recommendations"],
-      "tags": ["Equity research", "Ratio analysis", "Peer valuation"]
+      "title": "Arista Networks (ANET) stock pitch",
+      "type": "Research",
+      "org": "Equity research pitch · prepared with Perplexity",
+      "period": "Apr 2026",
+      "question": "Is Arista Networks the best way to own AI data-center networking spend?",
+      "theory": "Equity research: investment thesis, scenario DCF, peer comparison and risk framing.",
+      "bullets": [
+        "Recommended Strong Buy with a $175 12-month target (+30.9% from $133.64) and a $115 stop loss",
+        "Built a three-scenario DCF (base case $155) and compared Arista with NVIDIA and Cisco on growth, margins, balance sheet and valuation",
+        "Defined entry and exit triggers, the main risks (42% of revenue from Microsoft and Meta) and a falsifiable catalyst to track"
+      ],
+      "note": "Research exercise using data as of Apr 7, 2026. Not investment advice.",
+      "proof": [
+        {
+          "label": "View the pitch on LinkedIn",
+          "url": "https://lnkd.in/p/gdBAiBDg"
+        }
+      ],
+      "tags": [
+        "Equity research",
+        "DCF valuation",
+        "Peer valuation"
+      ],
+      "id": "arista-pitch",
+      "overview": [
+        "A 12-month investment pitch recommending Arista Networks as a way to own AI data-center networking spend. The thesis rests on Arista's position in AI Ethernet networking, its EOS software and the upgrade cycle from 800G to 1.6T networking.",
+        "I tested it with a three-scenario DCF (bear $70, base $155, bull $215), a comparison with NVIDIA and Cisco, entry and exit triggers, and a risk section naming customer concentration (Microsoft and Meta, 42% of revenue) as the main threat. The pitch also states a falsifiable claim: if no fourth 10%+ customer is announced by Q4 2026 earnings, the target falls to $145.",
+        "Prices and data are as of April 7, 2026, and the memo was prepared with Perplexity. It is a research exercise, not investment advice."
+      ]
     },
     {
-      "title": "Corporate financial model: Church & Dwight (NYSE: CHD)", "type": "Modeling", "org": "Brandeis coursework", "period": "2026",
-      "bullets": ["Built a three-statement financial model, performed a DCF valuation and forecast key financial metrics"],
-      "tags": ["Financial modeling", "DCF valuation"]
+      "title": "Impact Activation: Brandeis DeisHack hackathon",
+      "type": "Hackathon",
+      "org": "Brandeis DeisHack · for SVP Boston",
+      "period": "",
+      "question": "SVP Boston had strong community impact data locked in disconnected files, making it hard to attract and retain funders. How do you turn it into a story funders can act on?",
+      "theory": "Data pipeline design and data storytelling: capture, store, then activate the data.",
+      "bullets": [
+        "Team solution: a complete data pipeline that captures, stores and activates impact stories",
+        "A Python GUI for easy data entry by non-technical staff, and a relational database to prevent data loss",
+        "My part: the strategic visualizations in Power BI and Tableau that turn raw data into compelling ROI narratives"
+      ],
+      "learned": [
+        "Hackathons are about solving real problems for real organizations, not just coding",
+        "The best solutions bridge technical capability and user needs",
+        "Structure data today so it is ready for AI-driven insights tomorrow"
+      ],
+      "proof": [
+        {
+          "label": "View the project post on LinkedIn",
+          "url": "https://lnkd.in/p/gzfecFqF"
+        }
+      ],
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data visualization"
+      ],
+      "id": "deishack",
+      "overview": [
+        "DeisHack is a hackathon at Brandeis. Our challenge came from SVP Boston, whose community impact data was locked in disconnected files, making it hard to attract and retain funders.",
+        "Our team built Impact Activation, a data pipeline that captures, stores and activates impact stories. It combined a Python GUI so non-technical staff can enter data, a relational database to prevent data loss, and visualizations that turn the data into ROI narratives. My part was the strategic visualizations in Power BI and Tableau."
+      ]
     },
     {
-      "title": "Market research: Mypol Ltd.", "type": "Research", "org": "SDMIMD", "period": "2018",
-      "bullets": ["Researched demand for rubber products in the home appliance industry and presented business insights"],
-      "tags": ["Market research"]
+      "title": "Beverage industry equity research: Coca-Cola, PepsiCo, Monster, Celsius, Keurig Dr Pepper",
+      "type": "Research",
+      "org": "Brandeis coursework · group project of five",
+      "period": "2026",
+      "question": "How should a moderately risk-averse investor allocate across five U.S. beverage companies?",
+      "theory": "Financial ratio analysis, cost of capital (CAPM and WACC) and payout policy.",
+      "bullets": [
+        "Compared the five companies over 2021–2025 on liquidity, solvency, asset management, profitability and market value ratios",
+        "Estimated beta, cost of equity, cost of debt and WACC for each company and benchmarked them against a 6.33% industry WACC",
+        "Analyzed dividend and buyback policy to separate income-focused from growth-focused companies"
+      ],
+      "results": [
+        "WACC ranged from 6.72% (PepsiCo) to 13.75% (Celsius), with beta the main driver",
+        "Recommended a 40% PepsiCo, 40% Coca-Cola and 20% Monster portfolio, excluding Keurig Dr Pepper and Celsius"
+      ],
+      "proof": [
+        {
+          "label": "Read the report (PDF)",
+          "url": "files/Beverage_Equity_Project_Report.pdf"
+        }
+      ],
+      "tags": [
+        "Equity research",
+        "Ratio analysis",
+        "Peer valuation",
+        "WACC and CAPM",
+        "Portfolio construction"
+      ],
+      "id": "beverage-equity",
+      "overview": [
+        "A comparative study of Coca-Cola, PepsiCo, Monster Beverage, Celsius and Keurig Dr Pepper from 2021 to 2025, completed as a group of five. Part I compared the companies on liquidity, solvency, asset management, profitability and market value ratios.",
+        "Part II estimated each company's cost of capital using CAPM, with bond yields or synthetic ratings for the cost of debt, and compared the results with a 6.33% industry WACC. It also reviewed dividend and buyback policy.",
+        "The conclusion was a 40% PepsiCo, 40% Coca-Cola and 20% Monster allocation for a moderately risk-averse investor. Keurig Dr Pepper (higher beta and leverage, thinner interest coverage) and Celsius (beta of 1.81 and a 13.75% WACC) were excluded."
+      ]
+    },
+    {
+      "title": "Corporate financial model: Church & Dwight (NYSE: CHD)",
+      "type": "Modeling",
+      "org": "Brandeis coursework · Corporate Financial Modeling",
+      "period": "2026",
+      "question": "What is Church & Dwight worth, and what drives its forecast?",
+      "theory": "Three-statement integration, scenario analysis, WACC and discounted cash flow (DCF) valuation.",
+      "bullets": [
+        "Built an integrated financial model with base, best and worst case scenarios and a five-year forecast (2026–2030)",
+        "Estimated a 7.26% WACC from a CAPM cost of equity of 7.74% and a 4.19% weighted cost of debt, with 3% terminal growth",
+        "Valued the company with a DCF and cross-checked it with P/E, EBITDA and revenue multiples and a WACC and growth sensitivity table"
+      ],
+      "results": [
+        "Base case DCF value of $100.10 per share against a $92.65 market price; probability-weighted value of $105.76",
+        "Recommendation from the model: HOLD"
+      ],
+      "proof": [],
+      "tags": [
+        "Financial modeling",
+        "DCF valuation",
+        "WACC and CAPM"
+      ],
+      "id": "chd-model",
+      "overview": [
+        "Built for the Corporate Financial Modeling course. The workbook links an assumptions table to an integrated financial model, three scenarios (base 50%, best 25%, worst 25%), a WACC model built from the company's debt structure and a CAPM cost of equity, a DCF and a multiples valuation.",
+        "The base case values the stock at $100.10 per share against a $92.65 market price. Weighting the scenarios gives $105.76, and the model recommends HOLD."
+      ],
+      "proofNote": "Model workbook available on request."
+    },
+    {
+      "title": "Python stock portfolio analyzer: Big Tech vs the S&P 500",
+      "type": "Python",
+      "org": "Python project · 2025 market data",
+      "period": "2025",
+      "question": "Did an equal-weight Big Tech portfolio beat the S&P 500 once risk is taken into account?",
+      "theory": "Portfolio construction and risk-adjusted performance: volatility, Sharpe ratio and maximum drawdown.",
+      "bullets": [
+        "Downloaded and cleaned 2025 prices for Apple, Microsoft, Alphabet, Amazon, Tesla and the S&P 500",
+        "Built an equal-weight $10,000 portfolio and tracked its daily value against the index",
+        "Calculated total and annualized return, volatility, Sharpe ratio and maximum drawdown, and charted every stock, the portfolio and the index"
+      ],
+      "results": [
+        "The portfolio returned 23.5% against 16.7% for the S&P 500, growing $10,000 to $12,353",
+        "It took more risk: volatility of 28.8% against 18.8% and a maximum drawdown of −29.3% against −18.9%, so the Sharpe ratios were almost equal (0.81 vs 0.82)",
+        "Alphabet contributed the most (+65.9%) and Tesla was the most volatile stock"
+      ],
+      "proof": [
+        {
+          "label": "View the notebook on GitHub",
+          "url": "https://github.com/shobitham1005-jpg/shobitham1005-jpg.github.io/blob/main/files/Python_Project_Stock_Portfolio.ipynb"
+        }
+      ],
+      "tags": [
+        "Python",
+        "Portfolio construction",
+        "Risk metrics",
+        "Data visualization"
+      ],
+      "id": "stock-portfolio",
+      "overview": [
+        "Framed as a client request: evaluate an equal-weight $10,000 investment in Apple, Microsoft, Alphabet, Amazon and Tesla, and benchmark it against the S&P 500 for 2025.",
+        "The notebook downloads and cleans the price data, builds the portfolio, charts every stock against the index, and calculates return, volatility, Sharpe ratio and maximum drawdown. The portfolio beat the index on return (23.5% vs 16.7%) but with more volatility and deeper drawdowns, so on a risk-adjusted basis it was roughly level with the S&P 500 (Sharpe ratio 0.81 vs 0.82)."
+      ]
+    },
+    {
+      "title": "Summer internship: applications of rubber in home appliances",
+      "type": "Internship",
+      "org": "Mysore Polymers & Rubber Products Limited (MYPOL) · SDMIMD internship",
+      "period": "Apr – May 2018",
+      "question": "Is there demand for rubber products in the home appliance industry?",
+      "theory": "Market research and demand analysis.",
+      "bullets": [
+        "Researched demand for rubber products in the home appliance industry",
+        "Presented the business insights to the organization",
+        "Completed the program with a certificate from the company's HR department"
+      ],
+      "proof": [
+        {
+          "label": "View the internship certificate",
+          "url": "files/Mypol_Internship_Certificate.pdf"
+        }
+      ],
+      "tags": [
+        "Market research"
+      ],
+      "id": "mypol-internship",
+      "overview": [
+        "A two-month summer internship (1 April to 31 May 2018) during my PGDM at SDMIMD, on 'Applications of Rubber in Home Appliances' at Mysore Polymers & Rubber Products Limited.",
+        "I researched demand for rubber products in the home appliance industry and presented the findings. The company's HR department certified completion of the program."
+      ]
     }
   ],
   "skills": {
-    "Fund accounting and reporting": ["Private equity accounting", "NAV calculation", "Fund pricing", "Carried interest & incentive fees", "Capital calls & distributions", "AIFMD reporting", "Investor reporting", "Investor relations", "Audit support"],
-    "Research and valuation": ["Financial modeling", "DCF valuation", "Equity research", "Ratio analysis", "Peer valuation", "Market research", "TAM/SAM/SOM analysis", "Competitor benchmarking"],
-    "Tools": ["Bloomberg", "Python", "Investran", "Domos", "Crystal", "Reporting Wizards", "CBI", "MS Office (advanced)"]
+    "Fund accounting and reporting": [
+      "Private equity accounting",
+      "NAV calculation",
+      "Fund pricing",
+      "Carried interest & incentive fees",
+      "Capital calls & distributions",
+      "AIFMD reporting",
+      "Investor reporting",
+      "Investor relations",
+      "Audit support"
+    ],
+    "Research and valuation": [
+      "Financial modeling",
+      "DCF valuation",
+      "Equity research",
+      "Ratio analysis",
+      "Peer valuation",
+      "Market research",
+      "TAM/SAM/SOM analysis",
+      "Competitor benchmarking",
+      "Data visualization",
+      "WACC and CAPM",
+      "Portfolio construction",
+      "Risk metrics"
+    ],
+    "Tools": [
+      "Bloomberg",
+      "Python",
+      "Power BI",
+      "Tableau",
+      "Investran",
+      "Domos",
+      "Crystal",
+      "Reporting Wizards",
+      "CBI",
+      "MS Office (advanced)"
+    ]
   },
   "education": [
-    { "school": "Brandeis School of Business and Economics", "degree": "MS in Finance (STEM), Financial Mathematics", "years": "Jan 2026 – Jun 2027", "detail": "Corporate Finance, Private Equity, Financial Modeling, Advanced Quantitative, Options and Derivatives" },
-    { "school": "SDMIMD, Karnataka, India", "degree": "PGDM, Finance & Marketing", "years": "2017 – 2019", "detail": "Macroeconomics, marketing research, financial derivatives, international finance" },
-    { "school": "MMK & SDM, University of Mysore", "degree": "Bachelor of Commerce", "years": "2014 – 2017", "detail": "" }
+    {
+      "school": "Brandeis School of Business and Economics",
+      "degree": "MS in Finance (STEM), FinTech",
+      "years": "Jan 2026 – Jun 2027",
+      "detail": "Corporate Finance, Private Equity, Financial Modeling, Advanced Quantitative, Options and Derivatives"
+    },
+    {
+      "school": "SDMIMD, Karnataka, India",
+      "degree": "PGDM, Finance & Marketing",
+      "years": "2017 – 2019",
+      "detail": "Macroeconomics, marketing research, financial derivatives, international finance"
+    },
+    {
+      "school": "MMK & SDM, University of Mysore",
+      "degree": "Bachelor of Commerce",
+      "years": "2014 – 2017",
+      "detail": ""
+    }
   ],
   "beyond": [
-    { "label": "Certification", "text": "Accounting Fundamentals & Excel Crash Course, Corporate Finance Institute (2019)" },
-    { "label": "Languages", "text": "English (fluent), Kannada (fluent), Telugu, Hindi (native)" },
-    { "label": "Leadership", "text": "Captain, Wizards of Work Chess Committee (2023); captain, corporate cricket event (2024)" }
+    {
+      "label": "Certification",
+      "text": "Accounting Fundamentals & Excel Crash Course, Corporate Finance Institute (2019)"
+    },
+    {
+      "label": "Languages",
+      "text": "English (fluent), Kannada (fluent), Telugu, Hindi (native)"
+    },
+    {
+      "label": "Leadership",
+      "text": "Captain, Wizards of Work Chess Committee (2023); captain, corporate cricket event (2024)"
+    }
   ]
 }
