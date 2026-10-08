@@ -379,7 +379,7 @@
     {
       "title": "Python stock portfolio analyzer: Big Tech vs the S&P 500",
       "type": "Python",
-      "org": "Python project · 2025 market data",
+      "org": "Stock portfolio analysis",
       "period": "2025",
       "question": "Did an equal-weight Big Tech portfolio beat the S&P 500 once risk is taken into account?",
       "theory": "Portfolio construction and risk-adjusted performance: volatility, Sharpe ratio and maximum drawdown.",
