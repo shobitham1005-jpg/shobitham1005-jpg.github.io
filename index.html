@@ -78,6 +78,7 @@ footer{padding:36px 0 60px;color:var(--mute)}
 .proof a.ov:hover{background:var(--ink);border-color:var(--ink)}
 .cards article.card{padding:24px 26px}
 .logo{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--gold);color:var(--ink);font:700 .78rem "DM Sans",sans-serif;margin-right:10px;vertical-align:middle;letter-spacing:.02em}
+.card{scroll-margin-top:96px}#bar{max-width:92vw;text-align:center}
 </style>
 </head>
 <body>
@@ -132,13 +133,15 @@ $("beyond").innerHTML=hd("beyond")+`<div class="beyond">${d.beyond.map(b=>`<div>
 $("contact").innerHTML=hd("contact")+`<p><a class="btn p" href="mailto:${L.email}">${I.mail}Email me</a><a class="btn" href="tel:${tel}">${I.ph}${L.phone}</a><a class="btn" href="${L.linkedin}">${I.li}LinkedIn</a>${L.handshake?`<a class="btn" href="${L.handshake}">${I.hs}Handshake</a>`:""}<a class="btn" href="${L.resume}">${I.doc}Résumé (PDF)</a></p>
 <p class="meta">${L.email} · ${L.email2}</p>`;
 $("foot").textContent="© "+new Date().getFullYear()+" "+d.name;
-let active=null;const bar=$("bar");
+let active=null,hits=[],hi=0;const bar=$("bar");
+function go(i){hi=i;hits[i].scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth",block:"center"})}
 function mark(){document.querySelectorAll(".card[data-tags]").forEach(c=>{const h=!!active&&c.dataset.tags.split("|").includes(active);c.classList.toggle("hit",h);c.classList.toggle("dim",!!active&&!h);if(h&&c.tagName==="DETAILS")c.open=true});
 document.querySelectorAll(".tags .chip").forEach(c=>c.classList.toggle("hit",c.dataset.t===active));
 document.querySelectorAll("[data-skill]").forEach(c=>c.classList.toggle("on",c.dataset.skill===active));
-bar.style.display=active?"block":"none";if(active)bar.innerHTML=`Showing where I used <b>${active}</b><button id="clr">Clear</button>`}
+hits=[...document.querySelectorAll(".card.hit")];hi=0;bar.style.display=active?"block":"none";if(active)bar.innerHTML=`Showing where I used <b>${active}</b> · ${hits.length?hits.length+(hits.length>1?" places":" place"):"no linked project yet"}${hits.length>1?'<button id="nxt">Next</button>':""}<button id="clr">Clear</button>`}
 document.addEventListener("click",e=>{const s=e.target.closest("[data-skill]");
-if(s){active=active===s.dataset.skill?null:s.dataset.skill;mark();if(active)$("projects").scrollIntoView();return}
+if(s){active=active===s.dataset.skill?null:s.dataset.skill;mark();if(active&&hits.length)go(0);return}
+if(e.target.id==="nxt"){go((hi+1)%hits.length);return}
 if(e.target.id==="clr"){active=null;mark();return}
 const f=e.target.closest("[data-f]");if(f){document.querySelectorAll("[data-f]").forEach(b=>b.classList.toggle("on",b===f));
 document.querySelectorAll("#projects article.card").forEach(c=>c.hidden=f.dataset.f!=="All"&&c.dataset.type!==f.dataset.f)}});
